@@ -21,6 +21,7 @@ var app = {
         app.detectMobile();
     },
     connectTeamPopup: function(){
+      /* This will show change the popup text on connect team */
       jQuery(".connect-team .fancybox-thumb").click(function(){
         var name = jQuery(this).find(".team-name").text();
         var desc = jQuery(this).data("desc");
@@ -39,6 +40,7 @@ var app = {
       });
     },
     connectEventViewMore: function() {
+        // This will create fake content when click on view more on connect event
         jQuery(".connect-events-view-more").click(function() {
             var $wrapper = jQuery(this).prev().find(".row");
             var $content = $wrapper.find("> div:last-child");

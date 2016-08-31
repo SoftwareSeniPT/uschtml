@@ -93,7 +93,7 @@
   <section class="connect-approach">
     <div class="container">
       <h2><span class="title-prefix">Connect</span>Approach</h2>
-      <p class="connect-approach-desc">Connect will deepen our relationship and deliver assistance, programming, trade and investment. It is organized around four pillars as described more below</p>
+      <p class="connect-approach-desc">Connect will deepen our relationship and deliver assistance, programming, trade and investment. It is organized around four pillars, under which we are excited to announce new programs and activities:</p>
 
       <!-- Business connect -->
       <div class="row connect-approach-item">
@@ -102,7 +102,7 @@
         </div>
         <div class="col-md-6">
             <p>Supports increased commercial engagement between the United States and ASEAN.</p>
-            <p class="point-heading">Programs and Activities</p>
+            <p class="point-heading">NEW programs and Activities</p>
             <ul>
                 <li>USAID, in partnership with Australia, is launching the Women’s Livelihood Bond Program that will leverage up to $24 million in private capital for microfinance institutions that lend to women and social enterprises to create sustainable livelihoods
                     for women.</li>
@@ -118,7 +118,7 @@
         </div>
         <div class="col-md-6">
             <p>helps develop ASEAN’s power sector using sustainable, efficient, and innovative technologies.</p>
-            <p class="point-heading">Programs and Activities</p>
+            <p class="point-heading">NEW programs and Activities</p>
             <ul>
                 <li>To help deliver on this goal, we are pleased to announce a new five-year, $16 million effort in ASEAN through the USAID Clean Power Asia program to increase the supply of grid-connected renewable energy.</li>
             </ul>
@@ -132,7 +132,7 @@
         </div>
         <div class="col-md-6">
             <p>supports innovation-focused ecosystems that spur invention, create new businesses, promote sustainable growth and assist ASEAN in developing the region’s future innovators, entrepreneurs and business leaders.</p>
-            <p class="point-heading">Programs and Activities</p>
+            <p class="point-heading">NEW programs and Activities</p>
             <ul>
                 <li>A new Digital Economy Series is being organized around the key issues ASEAN must tackle to build a successful and vibrant regional digital economy.</li>
                 <li>The series begins with a U.S. Government-sponsored assessment paper of the important digital economy issues the region faces, followed by a series of joint public-private policy engagements around key issues, accompanied by assistance to build
@@ -148,7 +148,7 @@
         </div>
         <div class="col-md-6">
             <p>works with ASEAN countries to improve the policy and regulatory environment for growth, trade, innovation and investment supporting ASEAN Member States’ regional integration objectives under the ASEAN Economic Community.</p>
-            <p class="point-heading">Programs and Activities</p>
+            <p class="point-heading">NEW programs and Activities</p>
             <ul>
                 <li>The U.S-ASEAN Trade Workshops, under the U.S.-ASEAN Trade and Investment Framework Arrangement, will help ASEAN Member State officials familiarize themselves with the elements that go into high-standard trade agreements, helping to improve the
                     environment for trade and investment.</li>

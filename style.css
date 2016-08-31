@@ -709,10 +709,9 @@ body:not(.home) #navbar .menu li:first-child {
     margin-bottom: 30px;
 }
 
-/* Connect team */
 
-.connect-team {
-    background: #e6e6e6;
+.homepage .connect-team {
+    background: #e6e6e6 !important;
     text-align: center;
     padding-top: 50px;
     padding-bottom: 30px;

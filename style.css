@@ -14,7 +14,7 @@ html, body {
     height: 100%;
 }
 body {
-    font-family: "Cambria", Georgia, serif;
+    font-family: "Droid Sans", "Cambria", Georgia, serif;
     font-size: 1.8rem;
     color: #8a8a8a;
     margin: 0;
@@ -30,11 +30,11 @@ h1, h2, h3, h4, h5, h6 {
 }
 h2 {
     font-size: 4.4rem;
-    color: #262160;
+    color: #262262;
     margin-bottom: 30px;
 }
 h2 .title-prefix {
-    color: #57c6d2;
+    color: #57c6d1;
 }
 ::-moz-selection {
     color: #ebebe3;
@@ -189,7 +189,7 @@ select {
 /* Header */
 
 #header {
-    background: #00629f;
+    background: #00629e;
     font-family: 'Oswald', sans-serif;
     font-size: 1.3rem;
     padding: 0;
@@ -252,7 +252,7 @@ select {
     border-bottom: 1px solid rgba(0, 98, 159, 0.18);
 }
 #navbar li .sub-menu li a {
-    color: #00629f;
+    color: #00629e;
     display: block;
     padding: 6px 0;
 }
@@ -556,12 +556,12 @@ body:not(.home) #navbar .menu li:first-child {
     text-align: center;
 }
 .connect-highlight .cycle-pager span {
-    color: #262160;
+    color: #262262;
     font-size: 3.7rem;
     line-height: 1;
 }
 .connect-highlight .cycle-pager .cycle-pager-active {
-    color: #57c6d2;
+    color: #57c6d1;
 }
 
 /* Connect event */
@@ -580,7 +580,7 @@ body:not(.home) #navbar .menu li:first-child {
     color: #494776;
 }
 .connect-events h3 a:hover {
-    color: #57c6d2;
+    color: #57c6d1;
 }
 .connect-events .excerpt {
     font-size: 1.8rem;
@@ -607,7 +607,7 @@ body:not(.home) #navbar .menu li:first-child {
     background-size: cover;
 }
 .read-more {
-    background: #d2364b;
+    background: #d2364a;
     font-family: 'Oswald', sans-serif;
     font-weight: 300;
     color: #fff;
@@ -714,7 +714,7 @@ body:not(.home) #navbar .menu li:first-child {
     color: #57c6d1;
 }
 #footer button {
-    background: #d2364b;
+    background: #d2364a;
     border: 0;
     font-family: 'Oswald', sans-serif;
     font-weight: 300;
@@ -827,7 +827,7 @@ body:not(.home) #navbar .menu li:first-child {
 #back-to-top {
     position: fixed;
     bottom: 0;
-    background: #00629f;
+    background: #00629e;
     color: #fff;
     width: 40px;
     height: 40px;

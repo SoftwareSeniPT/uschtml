@@ -21,7 +21,7 @@
     <!-- Fancybox -->
     <link rel="stylesheet" href="./js/fancybox/jquery.fancybox.css">
     <!-- Droid Sans -->
-    <link href="https://fonts.googleapis.com/css?family=Droid+Sans" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Droid+Sans:400,700" rel="stylesheet">
     <!-- Oswald font -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald:300,400,700">
     <!-- Font icon -->

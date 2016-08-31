@@ -171,7 +171,6 @@ select {
 #content:not(.homepage) {
     padding-top: 60px;
 }
-
 /* Absolute centering */
 
 .connect-story-grid, .infographic .infographic-desc, .connect-highlight .slide .slide-wrapper {
@@ -202,6 +201,7 @@ select {
     top: 0;
     z-index: 200;
     min-height: 60px;
+    transition: min-height 0.4s;
 }
 #header, #header a {
     color: #fff;
@@ -238,6 +238,7 @@ select {
     margin: 0 20px;
     position: relative;
     padding: 20px 0;
+    transition: padding 0.4s;
 }
 #navbar .menu> li:first-child {
     float: left;
@@ -265,6 +266,12 @@ select {
 body:not(.home) #navbar .menu li:first-child {
     display: none;
 }
+.not-on-top #header {
+    min-height: 40px;
+}
+.not-on-top #navbar .menu> li {
+    padding: 10px 0;
+}
 
 /* Section in general */
 
@@ -291,7 +298,6 @@ body:not(.home) #navbar .menu li:first-child {
     left: 0;
     right: 0;
     color: #fff;
-    overflow: hidden;
 }
 .hero .hero-wrapper .container {
     z-index: 2;
@@ -301,7 +307,7 @@ body:not(.home) #navbar .menu li:first-child {
 }
 .hero .hero-wrapper:before {
     content: "";
-    top: 0;
+    top: -40px;
     left: 0;
     right: 0;
     bottom: 0;
@@ -497,6 +503,8 @@ body:not(.home) #navbar .menu li:first-child {
     display: inline-block;
     margin: 0;
     vertical-align: middle;
+    font-weight: 600;
+    color: #56c5d0;
 }
 .connect-approach ul {
     margin: 0;

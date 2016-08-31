@@ -167,7 +167,7 @@
               <div class="container">
                   <div class="row">
                       <div class="col-md-6 slide-caption">
-                          <h2><span class="title-prefix">Connect</span>Highlight</h2>
+                          <h2><span class="title-prefix">Connect</span>Highlights</h2>
                           <p>Lorem ipsum sed lacinia nisi adipiscing primis augue ultrices, vel augue dui convallis dolor morbi mi volutpat, purus netus cras elementum massa duis convallis. quisque augue arcu justo ante aenean, vehicula quam tempus torquent morbi
                               magna, cursus tempus duis cubilia. Arcu tempus nulla torquent potenti quam, maecenas suspendisse tempus tincidunt.</p>
                       </div>

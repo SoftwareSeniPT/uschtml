@@ -420,7 +420,8 @@ body:not(.home) #navbar .menu li:first-child {
     height: 100%;
     width: 100%;
     -o-object-fit: cover;
-    object-fit: cover;
+    object-fit: contain;
+    background: #f3f3f3;
 }
 .infographic img {
     -webkit-transition: -webkit-transform 0.4s cubic-bezier(0.77, 0, 0.175, 1);

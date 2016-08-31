@@ -57,9 +57,9 @@
     <div class="col-md-4">
       <div class="info-wrapper">
         <img src="./images/01-connect-story-infographic.jpg" alt="">
-        <div class="fancybox-thumb infographic-desc" rel="fancybox-thumb" href="./images/01-connect-story-infographic.jpg" title="Lorem ipsum dolor sit">
-          <h3>Lorem ipsum dolor sit</h3>
-          <p>Modi praesentium pariatur</p>
+        <div class="fancybox-thumb infographic-desc" rel="fancybox-thumb" href="./images/01-connect-story-infographic.jpg" title="Asean Market">
+          <h3>Asean Market</h3>
+          <p>Infographic</p>
         </div>
       </div>
     </div>
@@ -68,9 +68,9 @@
     <div class="col-md-4">
       <div class="info-wrapper">
         <img src="./images/02-connect-story-infographic.jpg" alt="">
-        <div class="fancybox-thumb infographic-desc" rel="fancybox-thumb" href="./images/02-connect-story-infographic.jpg" title="Lorem ipsum dolor sit">
-          <h3>Lorem ipsum dolor sit</h3>
-          <p>Modi praesentium pariatur</p>
+        <div class="fancybox-thumb infographic-desc" rel="fancybox-thumb" href="./images/02-connect-story-infographic.jpg" title="Asean Economy">
+          <h3>Asean Economy</h3>
+          <p>Infographic</p>
         </div>
       </div>
     </div>
@@ -79,9 +79,9 @@
     <div class="col-md-4">
       <div class="info-wrapper">
         <img src="./images/03-connect-story-infographic.jpg" alt="">
-        <div class="fancybox-thumb infographic-desc" rel="fancybox-thumb" href="./images/03-connect-story-infographic.jpg" title="Lorem ipsum dolor sit">
-          <h3>Lorem ipsum dolor sit</h3>
-          <p>Modi praesentium pariatur</p>
+        <div class="fancybox-thumb infographic-desc" rel="fancybox-thumb" href="./images/03-connect-story-infographic.jpg" title="US-Asia Direct Investment">
+          <h3>US-Asia Direct Investment</h3>
+          <p>Infographic</p>
         </div>
       </div>
     </div>

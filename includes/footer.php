@@ -42,9 +42,9 @@
 
 <!-- External JS -->
 <script src="./js/jquery-1.12.4.min.js"></script>
-<script src="./js/jquery.cycle2.min.js" async></script>
-<script src="./js/parallax.min.js" async></script>
-<script src="./js/fancybox/jquery.fancybox.pack.js" async></script>
-<script src="./js/app.js" async></script>
+<script src="./js/jquery.cycle2.min.js"></script>
+<script src="./js/parallax.min.js"></script>
+<script src="./js/fancybox/jquery.fancybox.pack.js"></script>
+<script src="./js/app.js"></script>
 </body>
 </html>

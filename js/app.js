@@ -1,5 +1,6 @@
 var app = {
     init: function() {
+        /* This function is called when jQuery initialized */
         app.initHomeCycle();
         app.fancyBoxInit();
         app.singlePageScroll();
@@ -13,27 +14,37 @@ var app = {
         app.detectIsHeroImageLoaded();
     },
     onResize: function() {
+        /* This function called everytime user change the screen size */
         app.heroCaptionPadding();
         app.detectMobile();
     },
     detectIsHeroImageLoaded: function() {
+        /*
+         * Text on homepage hero need to have left padding dinamically set depending on
+         * the width of vertical logo to avoid image stacked above the text
+         * so first it need to detect if the image is loaded or not
+         * we cannot get the image width if it is not fully loaded yet
+         */
         if (!jQuery("body").hasClass("home")) {
-            return false;
+            return false; // Only apply on homepage
         }
-        var $img = jQuery(".hero .hero-logo");
+        var $img = jQuery(".hero .hero-logo"); // The image element
         var img = new Image();
         img.onload = function() {
-            app.heroCaptionPadding();
-            jQuery("body").addClass("hero-caption-padding-ready");
+            // If image is fully loaded. execute these:
+            app.heroCaptionPadding(); // Add padding to text
+            jQuery("body").addClass("hero-caption-padding-ready"); // Add class to tell padding on text is set
         }
         img.src = $img.attr('src');
     },
     animateHeroText: function() {
+        /* Add class to tell if document is ready, which means jQuery is loaded */
         setTimeout(function() {
             jQuery("body").addClass("document-ready");
         }, 100);
     },
     detectMobile: function() {
+        /* Detect if on mobile and add class to body */
         var isMobile = window.matchMedia("only screen and (max-width: 760px)");
 
         if (isMobile.matches) {
@@ -43,20 +54,30 @@ var app = {
         }
     },
     initParalax: function() {
+        /* Add paralax to hero for each page */
         var paralaxElm = jQuery(".homepage .hero, .page-hero");
         if (!paralaxElm.length) {
+            // Check if the element not found, dismiss function
             return false;
         }
 
+        // Get the image source by reading the background-image of element
         var bg = paralaxElm.css('background-image');
         bg = bg.replace('url(', '').replace(')', '').replace(/\"/gi, "");
+        // Init jQuery pralax plugin
         paralaxElm.parallax({
             imageSrc: bg
         });
+        // Add class to body to tell paralax is ready
         jQuery("body").addClass("paralax-active");
     },
     heroCaptionPadding: function() {
+        /*
+         * This function to calculate the amount of padding it need to
+         * avoid hero logo stacked on the hero text
+         */
         if (!jQuery("body").hasClass("home")) {
+            // Only apply on homepage
             return false;
         }
         var $container = jQuery(".hero-wrapper .container");
@@ -80,6 +101,10 @@ var app = {
         }
     },
     connectApproachPointToggle: function() {
+        /*
+         * Insert HTML of icon to toggle the bullet point on
+         * Connect Approach section and handle the click event
+         */
         var $list = jQuery(".connect-approach ul");
         $list.before("<i class=\"icon-plus-round\">"); // Insert toogle bullet icon
 
@@ -95,6 +120,7 @@ var app = {
         });
     },
     initHomeCycle: function() {
+        /* Init slideshow on homepage */
         jQuery('.connect-highlight .slideshow').cycle({
             speed: 600,
             manualSpeed: 600,
@@ -105,6 +131,7 @@ var app = {
         });
     },
     fancyBoxInit: function() {
+        /* Init lightbox on homepage */
         jQuery(".fancybox-thumb").fancybox({
             prevEffect: 'none',
             nextEffect: 'none',
@@ -118,8 +145,9 @@ var app = {
         });
     },
     singlePageScroll: function() {
+        /* Handle the submenu anchor. Animating scrolling to element when anchor clicked */
         jQuery("#single-page-scroll a").click(function() {
-            var target = jQuery(this).data("target");
+            var target = jQuery(this).data("target"); // Get target from data-target
             var headerHeight = jQuery("#header").outerHeight();
 
             jQuery('html, body').animate({
@@ -130,6 +158,7 @@ var app = {
         })
     },
     backToTopAnimation: function() {
+        // Back to Top animation
         var button = "#back-to-top";
         jQuery(button).click(function(event) {
             event.preventDefault();
@@ -139,6 +168,7 @@ var app = {
         });
     },
     onTopDetect: function() {
+        /* Detect if user is on the top of the page */ 
         jQuery(window).scroll(function() {
             var top = jQuery(document).scrollTop();
             if (top > 0) {

@@ -461,8 +461,8 @@ body:not(.home) #navbar .menu li:first-child {
     margin-bottom: 30px;
 }
 .connect-approach-item {
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 .connect-approach .icon-plus-round {
     width: 23px;
@@ -475,28 +475,35 @@ body:not(.home) #navbar .menu li:first-child {
     text-align: center;
     padding: 5px 0;
     cursor: pointer;
-    margin-bottom: 10px;
     -webkit-transition: -webkit-transform 0.4s;
     transition: -webkit-transform 0.4s;
     transition: transform 0.4s;
     transition: transform 0.4s, -webkit-transform 0.4s;
+    vertical-align: middle;
+    margin-left: 5px;
 }
 .connect-approach .icon-plus-round:before {
-    width: 14px;
+    width: 15px;
     height: 14px;
     display: inline-block;
     text-align: center;
-    vertical-align: top;
+    vertical-align: initial;
 }
 .connect-approach .icon-plus-round.opened {
     -webkit-transform: rotate(135deg);
     transform: rotate(135deg);
+}
+.connect-approach .point-heading {
+    display: inline-block;
+    margin: 0;
+    vertical-align: middle;
 }
 .connect-approach ul {
     margin: 0;
     padding: 0;
     list-style: none;
     display: none;
+    margin-top: 15px;
 }
 .connect-approach li {
     position: relative;
@@ -510,7 +517,7 @@ body:not(.home) #navbar .menu li:first-child {
     content: "b";
     font-family: usaseanconnect;
     position: absolute;
-    left: 8px;
+    left: 4px;
     color: #56c5d0;
     font-size: 1.5rem;
     top: 0;

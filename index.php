@@ -102,7 +102,7 @@
         </div>
         <div class="col-md-9">
             <p>Supports increased commercial engagement between the United States and ASEAN.</p>
-            <p>Programs and Activities</p>
+            <p class="point-heading">Programs and Activities</p>
             <ul>
                 <li>USAID, in partnership with Australia, is launching the Women’s Livelihood Bond Program that will leverage up to $24 million in private capital for microfinance institutions that lend to women and social enterprises to create sustainable livelihoods
                     for women.</li>
@@ -118,7 +118,7 @@
         </div>
         <div class="col-md-9">
             <p>helps develop ASEAN’s power sector using sustainable, efficient, and innovative technologies.</p>
-            <p>Programs and Activities</p>
+            <p class="point-heading">Programs and Activities</p>
             <ul>
                 <li>To help deliver on this goal, we are pleased to announce a new five-year, $16 million effort in ASEAN through the USAID Clean Power Asia program to increase the supply of grid-connected renewable energy.</li>
             </ul>
@@ -132,7 +132,7 @@
         </div>
         <div class="col-md-9">
             <p>supports innovation-focused ecosystems that spur invention, create new businesses, promote sustainable growth and assist ASEAN in developing the region’s future innovators, entrepreneurs and business leaders.</p>
-            <p>Programs and Activities</p>
+            <p class="point-heading">Programs and Activities</p>
             <ul>
                 <li>A new Digital Economy Series is being organized around the key issues ASEAN must tackle to build a successful and vibrant regional digital economy.</li>
                 <li>The series begins with a U.S. Government-sponsored assessment paper of the important digital economy issues the region faces, followed by a series of joint public-private policy engagements around key issues, accompanied by assistance to build
@@ -148,7 +148,7 @@
         </div>
         <div class="col-md-9">
             <p>works with ASEAN countries to improve the policy and regulatory environment for growth, trade, innovation and investment supporting ASEAN Member States’ regional integration objectives under the ASEAN Economic Community.</p>
-            <p>Programs and Activities</p>
+            <p class="point-heading">Programs and Activities</p>
             <ul>
                 <li>The U.S-ASEAN Trade Workshops, under the U.S.-ASEAN Trade and Investment Framework Arrangement, will help ASEAN Member State officials familiarize themselves with the elements that go into high-standard trade agreements, helping to improve the
                     environment for trade and investment.</li>
@@ -213,9 +213,9 @@
         <!-- Item 1 -->
         <div class="col-md-4">
           <!-- Title -->
-          <h3><a href="#">Lorem ipsum dolor sit amet consectetur</a></h3>
+          <h3><a href="./resources-detail.php">Lorem ipsum dolor sit amet consectetur</a></h3>
           <!-- Image -->
-          <a href="#" class="image-wrapper">
+          <a href="./resources-detail.php" class="image-wrapper">
             <div class="image" style="background-image: url(./images/Resources_image.png)"></div>
           </a>
           <!-- Excerpt -->
@@ -223,15 +223,15 @@
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
           </div>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur</p>
-          <a href="#" class="read-more">Read More</a>
+          <a href="./resources-detail.php" class="read-more">Read More</a>
         </div>
 
         <!-- Item 1 -->
         <div class="col-md-4">
           <!-- Title -->
-          <h3><a href="#">Ut enim ad minim veniam commodo consequat</a></h3>
+          <h3><a href="./resources-detail.php">Ut enim ad minim veniam commodo consequat</a></h3>
           <!-- Image -->
-          <a href="#" class="image-wrapper">
+          <a href="./resources-detail.php" class="image-wrapper">
             <div class="image" style="background-image: url(./images/Resources_image.png)"></div>
           </a>
           <!-- Excerpt -->
@@ -239,7 +239,7 @@
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
           </div>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur</p>
-          <a href="#" class="read-more">Read More</a>
+          <a href="./resources-detail.php" class="read-more">Read More</a>
         </div>
 
         <!-- Item 1 -->

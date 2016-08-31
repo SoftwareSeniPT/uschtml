@@ -465,8 +465,9 @@ body:not(.home) #navbar .menu li:first-child {
     margin-bottom: 20px;
 }
 .connect-approach .icon-plus-round {
-    width: 30px;
-    height: 30px;
+    width: 23px;
+    height: 23px;
+    font-size: 1.5rem;
     background: #56c5d0;
     color: #fff;
     border-radius: 50%;
@@ -479,6 +480,13 @@ body:not(.home) #navbar .menu li:first-child {
     transition: -webkit-transform 0.4s;
     transition: transform 0.4s;
     transition: transform 0.4s, -webkit-transform 0.4s;
+}
+.connect-approach .icon-plus-round:before {
+    width: 14px;
+    height: 14px;
+    display: inline-block;
+    text-align: center;
+    vertical-align: top;
 }
 .connect-approach .icon-plus-round.opened {
     -webkit-transform: rotate(135deg);
@@ -507,6 +515,10 @@ body:not(.home) #navbar .menu li:first-child {
     font-size: 1.5rem;
     top: 0;
     line-height: 2.1;
+}
+
+.connect-approach-item p:first-letter {
+    text-transform: uppercase;
 }
 
 /* Connect highlight */

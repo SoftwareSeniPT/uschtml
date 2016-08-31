@@ -266,6 +266,8 @@ select {
 body:not(.home) #navbar .menu li:first-child {
     display: none;
 }
+
+/* Turn header to have less height */
 .not-on-top #header {
     min-height: 40px;
 }

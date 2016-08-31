@@ -8,9 +8,10 @@
 
     <link rel="profile" href="http://gmpg.org/xfn/11" />
     <link rel="pingback" href="" />
-    <link rel="shortcut icon" href="./images/favicon.png" />
     <link rel="apple-touch-icon" href="./images/icon-touch.png"/>
-    <link rel="icon" type="image/png" href="./images/favicon.png" />
+    <link rel="shortcut icon" href="./images/favicon-16x16.png" />
+    <link rel="icon" type="image/png" href="./images/favicon-32x32.png" sizes="32x32" />
+    <link rel="icon" type="image/png" href="./images/favicon-16x16.png" sizes="16x16" />
 
     <!--Make Microsoft Internet Explorer behave like a standards-compliant browser. http://code.google.com/p/ie7-js/-->
     <!--[if lt IE 9]>

@@ -10,10 +10,23 @@ var app = {
         app.initParalax();
         app.animateHeroText();
         app.detectMobile();
+        app.detectIsHeroImageLoaded();
     },
     onResize: function() {
         app.heroCaptionPadding();
         app.detectMobile();
+    },
+    detectIsHeroImageLoaded: function() {
+        if (!jQuery("body").hasClass("home")) {
+            return false;
+        }
+        var $img = jQuery(".hero .hero-logo");
+        var img = new Image();
+        img.onload = function() {
+            app.heroCaptionPadding();
+            jQuery("body").addClass("hero-caption-padding-ready");
+        }
+        img.src = $img.attr('src');
     },
     animateHeroText: function() {
         setTimeout(function() {

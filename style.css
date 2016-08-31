@@ -325,7 +325,7 @@ body:not(.home) #navbar .menu li:first-child {
     transform: translateY(50px);
     opacity: 0;
 }
-.document-ready .hero h2, .document-ready .hero h2+ p {
+.document-ready.hero-caption-padding-ready .hero h2, .document-ready.hero-caption-padding-ready .hero h2+ p {
     transform: translateY(0);
     opacity: 1;
 }

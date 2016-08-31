@@ -46,8 +46,7 @@
     .connect-approach-item> div:first-child {
         margin-bottom: 20px;
     }
-    .infographic [class^="col-md-"] {
-    }
+    .infographic [class^="col-md-"] {}
     .connect-highlight .slide:before {
         width: 100%;
         background-color: rgba(0, 0, 0, 0.32);
@@ -91,6 +90,12 @@
     .connect-events {
         max-width: 480px;
         margin: 0 auto;
+    }
+    .connect-highlight .slideshow .cycle-pager {
+        right: 0;
+    }
+    .connect-approach-item [class^="col-md-"]:first-child {
+        text-align: left;
     }
 }
 @media (max-width: 480px) {

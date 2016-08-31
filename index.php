@@ -97,10 +97,10 @@
 
       <!-- Business connect -->
       <div class="row connect-approach-item">
-        <div class="col-md-3">
+        <div class="col-md-6">
           <img src="./images/Connect-Approach_01-Business-connect.png" alt="">
         </div>
-        <div class="col-md-9">
+        <div class="col-md-6">
             <p>Supports increased commercial engagement between the United States and ASEAN.</p>
             <p class="point-heading">Programs and Activities</p>
             <ul>
@@ -113,10 +113,10 @@
 
       <!-- Energy connect -->
       <div class="row connect-approach-item">
-        <div class="col-md-3">
+        <div class="col-md-6">
           <img src="./images/Connect-Approach_02-Energy-connect.png" alt="">
         </div>
-        <div class="col-md-9">
+        <div class="col-md-6">
             <p>helps develop ASEAN’s power sector using sustainable, efficient, and innovative technologies.</p>
             <p class="point-heading">Programs and Activities</p>
             <ul>
@@ -127,10 +127,10 @@
 
       <!-- Innovation connect -->
       <div class="row connect-approach-item">
-        <div class="col-md-3">
+        <div class="col-md-6">
           <img src="./images/Connect-Approach_03-Innovation-connect.png" alt="">
         </div>
-        <div class="col-md-9">
+        <div class="col-md-6">
             <p>supports innovation-focused ecosystems that spur invention, create new businesses, promote sustainable growth and assist ASEAN in developing the region’s future innovators, entrepreneurs and business leaders.</p>
             <p class="point-heading">Programs and Activities</p>
             <ul>
@@ -143,10 +143,10 @@
 
       <!-- Policy connect -->
       <div class="row connect-approach-item">
-        <div class="col-md-3">
+        <div class="col-md-6">
           <img src="./images/Connect-Approach_04-Policy-connect.png" alt="">
         </div>
-        <div class="col-md-9">
+        <div class="col-md-6">
             <p>works with ASEAN countries to improve the policy and regulatory environment for growth, trade, innovation and investment supporting ASEAN Member States’ regional integration objectives under the ASEAN Economic Community.</p>
             <p class="point-heading">Programs and Activities</p>
             <ul>
@@ -274,56 +274,74 @@
       <div class="row">
         <!-- Team 1 -->
         <div class="col-md-4">
-          <img src="./images/Connect_Team_01_usaid_logo.png" alt="Usaid">
-          <p class="team-name">Usaid</p>
+          <a href="#connect-team-popup" class="fancybox-thumb" data-desc="USAID is the lead U.S. Government agency that works to end extreme global poverty and enable resilient, democratic societies to realize their potential." data-url="http://usaid.gov">
+            <img src="./images/Connect_Team_01_usaid_logo.png" alt="Usaid">
+            <p class="team-name">Usaid</p>
+          </a>
         </div>
 
         <!-- Team 1 -->
         <div class="col-md-4">
-          <img src="./images/Connect_Team_02-US_department_state.png" alt="U.S. Department of State">
-          <p class="team-name">U.S. Department of State</p>
+          <a href="#connect-team-popup" class="fancybox-thumb" data-desc="The Department's mission is to shape and sustain a peaceful, prosperous, just, and democratic world and foster conditions for stability and progress for the benefit of the American people and people everywhere. This mission is shared with the USAID, ensuring we have a common path forward in partnership as we invest in the shared security and prosperity that will ultimately better prepare us for the challenges of tomorrow." data-url="http://state.gov">
+            <img src="./images/Connect_Team_02-US_department_state.png" alt="U.S. Department of State">
+            <p class="team-name">U.S. Department of State</p>
+          </a>
         </div>
 
         <!-- Team 1 -->
         <div class="col-md-4">
-          <img src="./images/Connect_Team_03_US_department_of_commerce.png" alt="U.S. Department of Commerce">
-          <p class="team-name">U.S. Department of Commerce</p>
+          <a href="#connect-team-popup" class="fancybox-thumb" data-desc="The mission of the Department is to create the conditions for economic growth and opportunity. As part of the Obama administration’s economic team, the Secretary of Commerce serves as the voice of U.S. business within the President’s Cabinet.  The Strategic Plan is how the Department maintains its focus on achieving its Open for Business Agenda." data-url="http://commerce.gov">
+            <img src="./images/Connect_Team_03_US_department_of_commerce.png" alt="U.S. Department of Commerce">
+            <p class="team-name">U.S. Department of Commerce</p>
+          </a>
         </div>
 
         <!-- Team 1 -->
         <div class="col-md-4">
-          <img src="./images/Connect_Team_04_US_trade_development_agency.png" alt="U.S. Trade and Development Agency">
-          <p class="team-name">U.S. Trade and Development Agency</p>
+          <a href="#connect-team-popup" class="fancybox-thumb" data-desc="The U.S. Trade and Development Agency (USTDA) helps companies create U.S. jobs through the export of U.S. goods and services for priority development projects in emerging economies. USTDA links U.S. businesses to export opportunities by funding project planning activities, pilot projects, and reverse trade missions while creating sustainable infrastructure and economic growth in partner countries." data-url="http://ustda.gov">
+            <img src="./images/Connect_Team_04_US_trade_development_agency.png" alt="U.S. Trade and Development Agency">
+            <p class="team-name">U.S. Trade and Development Agency</p>
+          </a>
         </div>
 
         <!-- Team 1 -->
         <div class="col-md-4">
-          <img src="./images/Connect_Team_05_office_of_the_US_trade_representative.png" alt="Office of the U.S. Trade Representative">
-          <p class="team-name">Office of the U.S. Trade Representative</p>
+          <a href="#connect-team-popup" class="fancybox-thumb" data-desc="American trade policy works toward opening markets throughout the world to create new opportunities and higher living standards for families, farmers, manufacturers, workers, consumers, and businesses. The United States is party to numerous trade agreements with other countries, and is participating in negotiations for new trade agreements with a number of countries and regions of the world." data-url="http://ustr.gov">
+            <img src="./images/Connect_Team_05_office_of_the_US_trade_representative.png" alt="Office of the U.S. Trade Representative">
+            <p class="team-name">Office of the U.S. Trade Representative</p>
+          </a>
         </div>
 
         <!-- Team 1 -->
         <div class="col-md-4">
-          <img src="./images/Connect_Team_06_US_department_of_energy.png" alt="U.S. Department of Energy">
-          <p class="team-name">U.S. Department of Energy</p>
+          <a href="#connect-team-popup" class="fancybox-thumb" data-desc="The mission of the Energy Department is to ensure America’s security and prosperity by addressing its energy, environmental and nuclear challenges through transformative science and technology solutions." data-url="http://energy.gov">
+            <img src="./images/Connect_Team_06_US_department_of_energy.png" alt="U.S. Department of Energy">
+            <p class="team-name">U.S. Department of Energy</p>
+          </a>
         </div>
 
         <!-- Team 1 -->
         <div class="col-md-4">
-          <img src="./images/Connect_Team_07_US_department_of_treasury.png" alt="U.S. Department of Treasury">
-          <p class="team-name">U.S. Department of Treasury</p>
+          <a href="#connect-team-popup" class="fancybox-thumb" data-desc="The Treasury Department is the executive agency responsible for promoting economic prosperity and ensuring the financial security of the United States. The Department is responsible for a wide range of activities such as advising the President on economic and financial issues, encouraging sustainable economic growth, and fostering improved governance in financial institutions." data-url="http://treasury.gov">
+            <img src="./images/Connect_Team_07_US_department_of_treasury.png" alt="U.S. Department of Treasury">
+            <p class="team-name">U.S. Department of Treasury</p>
+          </a>
         </div>
 
         <!-- Team 1 -->
         <div class="col-md-4">
-          <img src="./images/Connect_Team_08_export-import_bank_of_the_united_state.png" alt="Export-Import Bank of the United States">
-          <p class="team-name">Export-Import Bank of the United States</p>
+          <a href="#connect-team-popup" class="fancybox-thumb" data-desc="The Export-Import Bank of the United States (EXIM) is the official export credit agency of the United States. EXIM is an independent, self-sustaining Executive Branch agency with a mission of supporting American jobs by facilitating the export of U.S. goods and services." data-url="http://exim.gov">
+            <img src="./images/Connect_Team_08_export-import_bank_of_the_united_state.png" alt="Export-Import Bank of the United States">
+            <p class="team-name">Export-Import Bank of the United States</p>
+          </a>
         </div>
 
         <!-- Team 1 -->
         <div class="col-md-4">
-          <img src="./images/Connect_Team_09_overseas_privat_investment_corporation.png" alt="Overseas Private Investment Corporation">
-          <p class="team-name">Overseas Private Investment Corporation</p>
+          <a href="#connect-team-popup" class="fancybox-thumb" data-desc="OPIC is the U.S. Government’s development finance institution. It mobilizes private capital to help address critical development challenges and in doing so, advances U.S. foreign policy and national security priorities. Because OPIC works with the U.S. private sector, it helps U.S. businesses gain footholds in emerging markets, catalyzing revenues, jobs and growth opportunities both at home and abroad. OPIC achieves its mission by providing investors with financing, political risk insurance, and support for private equity investment funds, when commercial funding cannot be obtained elsewhere." data-url="http://opic.gov">
+            <img src="./images/Connect_Team_09_overseas_privat_investment_corporation.png" alt="Overseas Private Investment Corporation">
+            <p class="team-name">Overseas Private Investment Corporation</p>
+          </a>
         </div>
 
       </div>

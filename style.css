@@ -171,6 +171,7 @@ select {
 #content:not(.homepage) {
     padding-top: 60px;
 }
+
 /* Absolute centering */
 
 .connect-story-grid, .infographic .infographic-desc, .connect-highlight .slide .slide-wrapper {
@@ -243,9 +244,14 @@ select {
 #navbar .menu> li:first-child {
     float: left;
     margin: 0;
-    font-size: 1.8rem;
     line-height: 1;
     cursor: pointer;
+    position: absolute;
+    left: 2.6%;
+}
+#navbar .menu> li:first-child i {
+    font-size: 1.8rem;
+    vertical-align: text-bottom;
 }
 #navbar li .sub-menu li {
     float: none;
@@ -268,6 +274,7 @@ body:not(.home) #navbar .menu li:first-child {
 }
 
 /* Turn header to have less height */
+
 .not-on-top #header {
     min-height: 40px;
 }
@@ -533,9 +540,17 @@ body:not(.home) #navbar .menu li:first-child {
     top: 0;
     line-height: 2.1;
 }
-
 .connect-approach-item p:first-letter {
     text-transform: uppercase;
+}
+.connect-approach-item img {
+    width: 245px;
+    height: 75px;
+    object-fit: contain;
+    object-position: left;
+}
+.connect-approach-item [class^="col-md-"]:first-child {
+    text-align: center;
 }
 
 /* Connect highlight */
@@ -602,7 +617,7 @@ body:not(.home) #navbar .menu li:first-child {
     position: absolute;
     z-index: 120;
     left: 0;
-    right: 0;
+    right: 50%;
     bottom: 0;
     text-align: center;
 }
@@ -682,13 +697,16 @@ body:not(.home) #navbar .menu li:first-child {
     text-transform: uppercase;
     color: #fff;
     padding: 20px 0;
-    margin-top: 40px;
     -webkit-transition: background 0.4s;
     transition: background 0.4s;
+    margin-top: 20px;
 }
 .connect-events-view-more:hover {
     background: #032940;
     color: #fff;
+}
+.connect-events [class^="col-md-"] {
+    margin-bottom: 30px;
 }
 
 /* Connect team */
@@ -820,6 +838,7 @@ body:not(.home) #navbar .menu li:first-child {
     height: 100%;
     width: auto;
     left: 0;
+    margin: 0 20px;
 }
 
 /* Page connect partner */
@@ -833,10 +852,6 @@ body:not(.home) #navbar .menu li:first-child {
 }
 .connect-partner-partner {
     text-align: center;
-}
-.connect-partner-partner .container-fluid {
-    max-width: 1700px;
-    margin: 0 auto;
 }
 
 /* Page connect resources */
@@ -897,4 +912,17 @@ body:not(.home) #navbar .menu li:first-child {
 }
 .not-on-top #back-to-top {
     opacity: 1;
+}
+
+/* Connect team pop up */
+#connect-team-popup {
+    max-width: 400px;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+#connect-team-popup .url, #connect-team-popup .name {
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    margin: 9px 0;
 }

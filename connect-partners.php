@@ -21,7 +21,7 @@
     </div>
   </section>
   <section class="connect-partner-partner">
-    <div class="container-fluid">
+    <div class="container">
       <div class="row">
         <div class="col-md-3">
           <img src="./images/Partner-page_01_APCAC.png" alt="">

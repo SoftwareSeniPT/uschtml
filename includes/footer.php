@@ -37,6 +37,16 @@
 </div>
 <!-- // Footer -->
 
+<!-- Connect team popup -->
+<div id="connect-team-popup" style="display:none">
+  <div class="image">
+    <img src="http://localhost/usasean-php/images/Connect_Team_01_usaid_logo.png" />
+  </div>
+  <div class="name">USAID</div>
+  <div class="desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi harum omnis nobis sequi reprehenderit doloremque maiores dicta magni, culpa aspernatur accusamus nostrum natus eos quis libero odit reiciendis, provident, consequuntur.</div>
+  <div class="url"><a href="http://lorem.com">http://lorem.com</a></div>
+</div>
+
 <!-- Back to top -->
 <i class="icon-up-open-big" id="back-to-top"></i>
 

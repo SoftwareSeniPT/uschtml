@@ -12,11 +12,49 @@ var app = {
         app.animateHeroText();
         app.detectMobile();
         app.detectIsHeroImageLoaded();
+        app.connectEventViewMore();
+        app.connectTeamPopup();
     },
     onResize: function() {
         /* This function called everytime user change the screen size */
         app.heroCaptionPadding();
         app.detectMobile();
+    },
+    connectTeamPopup: function(){
+      jQuery(".connect-team .fancybox-thumb").click(function(){
+        var name = jQuery(this).find(".team-name").text();
+        var desc = jQuery(this).data("desc");
+        var url = jQuery(this).data("url");
+        var image = jQuery(this).find("img").attr("src");
+
+        // Init to popup
+        // name
+        jQuery("#connect-team-popup").find(".name").text(name);
+        // Desc
+        jQuery("#connect-team-popup").find(".desc").text(desc);
+        // url
+        jQuery("#connect-team-popup").find(".url a").text(url).attr("href", url);
+        // Imaage
+        jQuery("#connect-team-popup").find(".image img").attr("src", image);
+      });
+    },
+    connectEventViewMore: function() {
+        jQuery(".connect-events-view-more").click(function() {
+            var $wrapper = jQuery(this).prev().find(".row");
+            var $content = $wrapper.find("> div:last-child");
+            var text = jQuery(this).text();
+            var $that = this;
+            // Change text to loading.
+            jQuery(this).text("Loading...");
+            setTimeout(function() {
+                for (i = 0; i < 3; i++) {
+                    $wrapper.append($content[0].outerHTML);
+                }
+                jQuery($that).text(text);
+            }, 500);
+
+            return false;
+        });
     },
     detectIsHeroImageLoaded: function() {
         /*
@@ -168,7 +206,7 @@ var app = {
         });
     },
     onTopDetect: function() {
-        /* Detect if user is on the top of the page */ 
+        /* Detect if user is on the top of the page */
         jQuery(window).scroll(function() {
             var top = jQuery(document).scrollTop();
             if (top > 0) {

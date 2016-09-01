@@ -940,6 +940,7 @@ body:not(.home) #navbar .menu li:first-child {
     right: 0;
     transform: rotate(720deg);
     transform-origin: bottom;
+    overflow: hidden;
 }
 .flag-partners .flag-wrapper.flag1 {}
 .flag-partners .flag-wrapper.flag2 {

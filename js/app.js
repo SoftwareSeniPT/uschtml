@@ -36,7 +36,7 @@ var app = {
         // name
         jQuery("#connect-team-popup").find(".name").text(name);
         // Desc
-        jQuery("#connect-team-popup").find(".desc").text(desc);
+        jQuery("#connect-team-popup").find(".desc").html(desc);
         // url
         jQuery("#connect-team-popup").find(".url a").text(url).attr("href", url);
         // Imaage
@@ -44,29 +44,29 @@ var app = {
       });
     },
     connectEventViewMore: function() {
-        // This will create fake content when click on view more on connect event
-        var int = 0;
-        jQuery(".connect-events-view-more").click(function() {
-            var $wrapper = jQuery(this).prev().find(".row");
-            var $content = $wrapper.find("> div:last-child");
-            var text = jQuery(this).text();
-            var $that = this;
-            // Change text to loading.
-            jQuery(this).text("Loading...");
-            setTimeout(function() {
-                for (i = 0; i < 3; i++) {
-                    $wrapper.append($content[0].outerHTML);
-                }
-                jQuery($that).text(text);
-                int++;
+        // Wrap last 2 item
+        var lastItem = jQuery(".connect-events [class^=\"col-md-\"]:last-child");
+        var lastTwoItem = lastItem.prev();
+        var className = "event-item-wrapper";
+        lastTwoItem.andSelf().wrapAll("<div class=\""+className+"\"></div>").parent().hide();
 
-                // Hide if finish
-                if (int >=2) {
-                  jQuery($that).hide();
-                }
-            }, 500);
+        // Handle click
+        var button = jQuery(".connect-events-view-more");
+        var text = button.text();
+        button.click(function(){
+          if (!jQuery(this).hasClass("collapsed")){
+            jQuery(this).addClass("collapsed");
+            jQuery(this).text("View less");
 
-            return false;
+            // slideDown
+            jQuery("." + className).show();
+          } else {
+            jQuery(this).removeClass("collapsed");
+            jQuery(this).text(text);
+
+            jQuery("." + className).hide();
+          }
+          return false;
         });
     },
     detectIsHeroImageLoaded: function() {

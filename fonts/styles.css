@@ -56,3 +56,6 @@
 .icon-plus-round:before {
   content: "\66";
 }
+.icon-mail:before {
+  content: "\67";
+}

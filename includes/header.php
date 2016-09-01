@@ -41,6 +41,7 @@
                           <a href="#"><i class="icon-bars"></i> Menu</a>
                           <ul class="sub-menu" id="single-page-scroll">
                             <li><a href="#" data-target=".connect-story">Story</a></li>
+                            <li><a href="#" data-target=".connect-story-grid.image-left">Center</a></li>
                             <li><a href="#" data-target=".connect-approach">Approach</a></li>
                             <li><a href="#" data-target=".connect-highlight">Highlights</a></li>
                             <li><a href="#" data-target=".connect-events">Events</a></li>

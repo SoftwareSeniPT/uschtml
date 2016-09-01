@@ -14,6 +14,10 @@ var app = {
         app.detectIsHeroImageLoaded();
         app.connectEventViewMore();
         app.connectTeamPopup();
+        app.wrapConnectTeam();
+    },
+    wrapConnectTeam: function(){
+      jQuery(".connect-team .fancybox-thumb img").wrap("<div class=\"image\"></div>");
     },
     onResize: function() {
         /* This function called everytime user change the screen size */
@@ -169,12 +173,13 @@ var app = {
     initHomeCycle: function() {
         /* Init slideshow on homepage */
         jQuery('.connect-highlight .slideshow').cycle({
-            speed: 600,
-            manualSpeed: 600,
+            speed: 1000,
+            manualSpeed: 1000,
             slides: "> .slide",
             fx: "scrollHorz",
             next: "> .right",
-            prev: "> .left"
+            prev: "> .left",
+            timeout: 6000
         });
     },
     fancyBoxInit: function() {

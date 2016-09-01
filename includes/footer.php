@@ -44,7 +44,7 @@
   </div>
   <div class="name">USAID</div>
   <div class="desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi harum omnis nobis sequi reprehenderit doloremque maiores dicta magni, culpa aspernatur accusamus nostrum natus eos quis libero odit reiciendis, provident, consequuntur.</div>
-  <div class="url"><a href="http://lorem.com">http://lorem.com</a></div>
+  <div class="url"><a target="_blank" href="http://lorem.com">http://lorem.com</a></div>
 </div>
 
 <!-- Back to top -->

@@ -97,6 +97,9 @@
     .connect-approach-item [class^="col-md-"]:first-child {
         text-align: left;
     }
+    .homepage .connect-team {
+        margin-top: 30px;
+    }
 }
 @media (max-width: 480px) {
     #navbar .menu> li {

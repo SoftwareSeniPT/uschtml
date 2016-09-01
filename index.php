@@ -161,13 +161,14 @@
 
   <!-- Connect hightlight -->
   <section class="connect-highlight">
+    <h2><span class="title-prefix">Connect</span>Highlights</h2>
     <div class="slideshow">
         <div class="slide" style="background-image: url('./images/Obama_Connect-Highlights.jpg')">
             <div class="slide-wrapper">
               <div class="container">
                   <div class="row">
                       <div class="col-md-6 slide-caption">
-                          <h2><span class="title-prefix">Connect</span>Highlights</h2>
+                          <h2>Lorem ipsum sed</h2>
                           <p>Lorem ipsum sed lacinia nisi adipiscing primis augue ultrices, vel augue dui convallis dolor morbi mi volutpat, purus netus cras elementum massa duis convallis. quisque augue arcu justo ante aenean, vehicula quam tempus torquent morbi
                               magna, cursus tempus duis cubilia. Arcu tempus nulla torquent potenti quam, maecenas suspendisse tempus tincidunt.</p>
                       </div>
@@ -180,7 +181,7 @@
               <div class="container">
                   <div class="row">
                       <div class="col-md-6 slide-caption">
-                          <h2><span class="title-prefix">Connect</span>Highlight</h2>
+                          <h2>convallis pharetra vitae</h2>
                           <p>Lorem ipsum ornare aptent dictumst venenatis vehicula dictumst viverra adipiscing vivamus dapibus egestas taciti sem ultrices, ac suspendisse ullamcorper nec sociosqu vivamus nunc nulla congue dolor tempus ultricies felis et. in erat
                               cubilia taciti curabitur aenean mi orci ligula, lacinia habitasse egestas eget viverra et iaculis lorem dictum, convallis pharetra vitae felis et ante rutrum.</p>
                       </div>

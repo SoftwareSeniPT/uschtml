@@ -678,6 +678,9 @@ body:not(.home) #navbar .menu li:first-child {
 .connect-events .excerpt {
     font-size: 1.8rem;
     margin: 20px 0;
+    max-height: 160px;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 .connect-events .row {
     text-align: left;

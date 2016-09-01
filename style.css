@@ -174,10 +174,7 @@ select {
 
 /* Absolute centering */
 
-.connect-story-grid,
-.infographic .infographic-desc,
-.connect-highlight .slide .slide-wrapper,
-.resource-item [class^="col-md-"]:last-child {
+.connect-story-grid, .infographic .infographic-desc, .connect-highlight .slide .slide-wrapper, .resource-item [class^="col-md-"]:last-child {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -469,12 +466,10 @@ body:not(.home) #navbar .menu li:first-child {
     margin: 50px 0;
     text-align: center;
 }
-
 .connect-contact p {
     max-width: 70%;
     margin: 0 auto;
 }
-
 .connect-contact ul {
     list-style: none;
     text-align: left;
@@ -624,7 +619,6 @@ body:not(.home) #navbar .menu li:first-child {
 }
 .connect-highlight .slide-caption .read-more {
     margin-top: 20px;
-
 }
 .connect-highlight .arrow {
     position: absolute;
@@ -675,7 +669,6 @@ body:not(.home) #navbar .menu li:first-child {
     font-size: 2.4rem;
     margin-bottom: 20px;
 }
-
 .connect-events .excerpt, .connect-events h3 a, .connect-events h3 {
     color: #494776;
 }
@@ -742,11 +735,14 @@ body:not(.home) #navbar .menu li:first-child {
 .connect-events [class^="col-md-"] {
     margin-bottom: 30px;
 }
-
 .connect-events [class^="col-md-"]:nth-child(3n+1) {
     clear: left;
 }
 
+.stay-tune-label h3 {
+    background: #ebebeb;
+    padding: 10px 20px;
+}
 /* cOnnect team */
 
 .connect-team .image {
@@ -867,11 +863,9 @@ body:not(.home) #navbar .menu li:first-child {
     color: #fff;
     font-size: 1.3rem;
 }
-
 .contact-form {
     padding: 50px 0;
 }
-
 .copyright img {
     max-height: 22px;
     margin-left: 10px;
@@ -928,6 +922,64 @@ body:not(.home) #navbar .menu li:first-child {
 .connect-partner-partner {
     text-align: center;
 }
+.flag-partners {
+    display: inline-block;
+    position: relative;
+}
+.flag-partners .flag-wrapper {
+    position: absolute;
+    text-indent: -9999px;
+    width: 20%;
+    height: 50%;
+    top: 0;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    transform: rotate(720deg);
+    transform-origin: bottom;
+}
+.flag-partners .flag-wrapper.flag1 {}
+.flag-partners .flag-wrapper.flag2 {
+    transform: rotate(44deg);
+    height: 58%;
+    top: -8%;}
+.flag-partners .flag-wrapper.flag3 {
+    transform: rotate(74deg);
+    height: 53%;
+    top: -3%;}
+.flag-partners .flag-wrapper.flag4 {
+    transform: rotate(104deg);
+    height: 52%;
+    top: -2%;}
+.flag-partners .flag-wrapper.flag5 {
+    transform: rotate(136deg);
+    height: 57%;
+    top: -7%;}
+.flag-partners .flag-wrapper.flag6 {
+    transform: rotate(180deg);}
+.flag-partners .flag-wrapper.flag7 {
+    transform: rotate(225deg);
+    height: 57%;
+    top: -7%;}
+.flag-partners .flag-wrapper.flag8 {
+    transform: rotate(255deg);
+    height: 53%;
+    top: -3%;}
+.flag-partners .flag-wrapper.flag9 {
+    transform: rotate(285deg);
+    height: 53%;
+    top: -3%;}
+.flag-partners .flag-wrapper.flag10 {
+    transform: rotate(317deg);
+    height: 58%;
+    top: -8%;}
+.flag-partners .flag-wrapper a {
+    position: absolute;
+    padding-bottom: 70%;
+    top: 0;
+    left: 0;
+    right: 0;
+}
 
 /* Page connect resources */
 
@@ -948,21 +1000,21 @@ body:not(.home) #navbar .menu li:first-child {
     border: 1px solid #ddd;
 }
 .resource-item .image-wrapper .item-btn {
-  content: attr(data-label);
-  position: absolute;
-  bottom: 0;
-  background: #5cc6d0;
-  left: 0;
-  right: 0;
-  font-family: 'Oswald', sans-serif;
-  font-weight: 300;
-  text-transform: uppercase;
-  text-align: center;
-  color: #fff;
-  z-index: 2;
-  transition: background 0.4s;
-  border-bottom-left-radius: 10px;
-  border-bottom-right-radius: 10px;
+    content: attr(data-label);
+    position: absolute;
+    bottom: 0;
+    background: #5cc6d0;
+    left: 0;
+    right: 0;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 300;
+    text-transform: uppercase;
+    text-align: center;
+    color: #fff;
+    z-index: 2;
+    transition: background 0.4s;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
 }
 .item-btn a {
     display: block;
@@ -973,22 +1025,21 @@ body:not(.home) #navbar .menu li:first-child {
     font-size: 1.4rem;
     padding: 5px 0;
 }
-
 .item-btn a:last-child {
     background: #262262;
 }
 .resource-item .image-wrapper:hover:before {
-  background: #46aab3;
+    background: #46aab3;
 }
 .resource-item .image-wrapper img {
-  position: absolute;
-  left: 0;
-  width: 100%;
-  object-fit: contain;
-  top: 0;
-  height: 100%;
-  padding: 20px;
-  padding-bottom: 50px;
+    position: absolute;
+    left: 0;
+    width: 100%;
+    object-fit: contain;
+    top: 0;
+    height: 100%;
+    padding: 20px;
+    padding-bottom: 50px;
 }
 .resource-item .read-more {
     margin-top: 12px;
@@ -999,15 +1050,12 @@ body:not(.home) #navbar .menu li:first-child {
 .resource-item h3 a {
     color: #25235d;
 }
-
 .resource-item [class^="col-md-"]:last-child {
     min-height: 197px;
 }
-
 .view-more-resources {
     text-align: center;
 }
-
 .view-more-resources a, .resources-bottom-link a {
     font-family: 'Oswald', sans-serif;
     text-transform: uppercase;
@@ -1017,27 +1065,27 @@ body:not(.home) #navbar .menu li:first-child {
     padding: 20px 25px;
     transition: background 0.4s;
 }
-
 .view-more-resources a:hover {
-  background: #05253a;
-}
-/* resources-bottom-link */
-.resources-bottom-link {
-  background: #f4f4f4;
-  padding: 50px 0;
-  color: black;
-  margin-top: 50px;
+    background: #05253a;
 }
 
+/* resources-bottom-link */
+
+.resources-bottom-link {
+    background: #f4f4f4;
+    padding: 50px 0;
+    color: black;
+    margin-top: 50px;
+}
 .resources-bottom-link a {
-  width: 100%;
-  text-align: center;
-  background: #d0384e;
-  padding: 30px 25px;
-  border-radius: 10px
+    width: 100%;
+    text-align: center;
+    background: #d0384e;
+    padding: 30px 25px;
+    border-radius: 10px
 }
 .resources-bottom-link a:hover {
-  background: #992536;
+    background: #992536;
 }
 
 /* Page resource detail */
@@ -1087,7 +1135,7 @@ body:not(.home) #navbar .menu li:first-child {
     font-size: 1.5rem;
 }
 #connect-team-popup ul {
-  text-align: left;
+    text-align: left;
 }
 #connect-team-popup .image img {
     max-width: 130px;

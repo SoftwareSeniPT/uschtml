@@ -66,23 +66,23 @@
       </div>
     </div>
 
-    <!-- Infographic 2 -->
-    <div class="col-md-4">
-      <div class="info-wrapper">
-        <img src="./images/02-connect-story-infographic.jpg" alt="">
-        <div class="fancybox-thumb infographic-desc" rel="fancybox-thumb" href="./images/02-connect-story-infographic.jpg" title="Asean Economy">
-          <h3>Asean Economy</h3>
-          <p>Infographic</p>
-        </div>
-      </div>
-    </div>
-
     <!-- Infographic 3 -->
     <div class="col-md-4">
       <div class="info-wrapper">
         <img src="./images/03-connect-story-infographic.jpg" alt="">
         <div class="fancybox-thumb infographic-desc" rel="fancybox-thumb" href="./images/03-connect-story-infographic.jpg" title="US-Asia Direct Investment">
           <h3>US-Asia Direct Investment</h3>
+          <p>Infographic</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Infographic 2 -->
+    <div class="col-md-4">
+      <div class="info-wrapper">
+        <img src="./images/02-connect-story-infographic.jpg" alt="">
+        <div class="fancybox-thumb infographic-desc" rel="fancybox-thumb" href="./images/02-connect-story-infographic.jpg" title="Asean Economy">
+          <h3>Asean Economy</h3>
           <p>Infographic</p>
         </div>
       </div>
@@ -180,37 +180,38 @@
   <section class="connect-highlight">
     <h2><span class="title-prefix">Connect</span>Highlights</h2>
     <div class="slideshow">
-        <div class="slide" style="background-image: url('./images/Obama_Connect-Highlights.jpg')">
+        <div class="slide" style="background-image: url('./images/US_ASEAN_Logo_HFullColorV2.png')">
             <div class="slide-wrapper">
               <div class="container">
                   <div class="row">
                       <div class="col-md-6 slide-caption">
-                          <h2>President Obama Officially Launches Connect at U.S.-ASEAN Summit in Vientiane, Laos</h2>
-                          <p>Lorem ipsum sed lacinia nisi adipiscing primis augue ultrices.</p>
+                          <h2>U.S.-ASEAN Connect Launches</h2>
+                          <p>President Obama announced the official launch of U.S.-ASEAN Connect during the 4th U.S.-ASEAN Summit on September 8th to deepen and strengthen our economic relationship. Scroll down for more information on this new strategic framework and for information on newly announced programs and activities. U.S. Continues Support of Entrepreneurship and Sustainable Development through Connect.</p>
                       </div>
                   </div>
               </div>
             </div>
         </div>
-        <div class="slide" style="background-image: url('./images/Top-Connaect-Story.jpg')">
+        <div class="slide" style="background-image: url('./images/US_ASEAN_Logo_HFullColorV2.png')">
             <div class="slide-wrapper">
               <div class="container">
                   <div class="row">
                       <div class="col-md-6 slide-caption">
-                          <h2>U.S. Continues Support of Entrepreneurship and Sustainable Development through Connect</h2>
-                          <p>Lorem ipsum ornare aptent dictumst venenatis vehicula dictumst.</p>
+                          <h2>U.S. Ambassador to ASEAN Nina Hachigian Welcomes the Launch of Connect</h2>
+                          <p>Last November, the United States and ASEAN elevated our relationship to a strategic partnership. Then in February, President Obama hosted ASEAN’s leaders in the United States at a historic summit in Sunnylands, California. I was fortunate to be there, and it was exhilarating to witness the commitment to a shared vision for a prosperous future.</p>
+                          <a href="./resources-detail.php" class="read-more">Read More</a>
                       </div>
                   </div>
               </div>
             </div>
         </div>
-        <div class="slide" style="background-image: url('./images/Top-Connaect-Story.jpg')">
+        <div class="slide" style="background-image: url('./images/US_ASEAN_Logo_HFullColorV2.png')">
             <div class="slide-wrapper">
               <div class="container">
                   <div class="row">
                       <div class="col-md-6 slide-caption">
-                          <h2>Ambassador Hachigian Welcomes the Launch of Connect</h2>
-                          <p>Last November, the United States and ASEAN elevated our relationship to a strategic partnership.  Then in February, President Obama hosted ASEAN’s leaders in the United States at a historic summit in Sunnylands, California.</p>
+                          <h2>Recent Connect-ions!</h2>
+                          <p>Between the announcement of U.S.-ASEAN Connect at the U.S.-ASEAN Leaders’ Summit in Sunnylands, California and its official launch at the 4th U.S.-ASEAN Summit in Lao PDR, we’ve been busy. In addition to developing the new programs detailed in the Connect Approach section of this site, the U.S. government Connect team has been hard at work delivering Connect programs to advance our shared vision for a successful ASEAN Economic Community:</p>
                           <a href="./resources-detail.php" class="read-more">Read More</a>
                       </div>
                   </div>
@@ -320,7 +321,7 @@
       <div class="row">
         <!-- Team 1 -->
         <div class="col-md-4">
-          <a href="#connect-team-popup" class="fancybox-thumb" data-desc="Through our assistance programs, USAID plays an active and critical role in the promotion of U.S. foreign policy interests. The investment we make in developing countries has long-term benefits for America and the American people. Development now takes its place alongside defense and diplomacy as the three essential components of American foreign policy." data-url="http://www.usaid.gov">
+          <a href="#connect-team-popup" class="fancybox-thumb" data-desc="Through our assistance programs, USAID plays an active and critical role in the promotion of U.S. foreign policy interests. The investment we make in developing countries has long-term benefits for America and the American people. Development now takes its place alongside defense and diplomacy as the three essential components of American foreign policy." data-url="www.usaid.gov">
             <img src="./images/Connect_Team_01_usaid_logo.png" alt="Usaid">
             <p class="team-name">Usaid</p>
           </a>
@@ -328,7 +329,7 @@
 
         <!-- Team 1 -->
         <div class="col-md-4">
-          <a href="#connect-team-popup" class="fancybox-thumb" data-desc="The Department is responsible for promoting peace and stability in areas of vital interest to America, and helping developing nations establish stable economic environments. It is a source of support for American businesses abroad, working to achieve fair business practices in commerce, trade, manufacturing and other interests—while also identifying viable opportunities for American businesses." data-url="http://www.state.gov">
+          <a href="#connect-team-popup" class="fancybox-thumb" data-desc="The Department is responsible for promoting peace and stability in areas of vital interest to America, and helping developing nations establish stable economic environments. It is a source of support for American businesses abroad, working to achieve fair business practices in commerce, trade, manufacturing and other interests—while also identifying viable opportunities for American businesses." data-url="www.state.gov">
             <img src="./images/Connect_Team_02-US_department_state.png" alt="U.S. Department of State">
             <p class="team-name">U.S. Department of State</p>
           </a>
@@ -336,7 +337,7 @@
 
         <!-- Team 1 -->
         <div class="col-md-4">
-          <a href="#connect-team-popup" class="fancybox-thumb" data-desc="<p>The U.S. Commercial Service of the U.S. Department of Commerce uses its 108 offices across the United States and in more than 75 countries to help U.S. companies sell their products and services worldwide.  The services are tailored to small and medium sized enterprises and designed to advance and protect commercial interests abroad and attract investment into the United States. </p><p>Service Descriptions: <ul><li>Counseling, market research and partner searches for U.S. exporters</li><li>Assisting U.S. exporters with market access barriers, trade compliance issues, and advocacy on foreign government contracts</li><li>Promoting inbound investment into the United States.</ul></p>" data-url="http://www.commerce.gov">
+          <a href="#connect-team-popup" class="fancybox-thumb" data-desc="<p>The U.S. Commercial Service of the U.S. Department of Commerce uses its 108 offices across the United States and in more than 75 countries to help U.S. companies sell their products and services worldwide.  The services are tailored to small and medium sized enterprises and designed to advance and protect commercial interests abroad and attract investment into the United States. </p><p>Service Descriptions: <ul><li>Counseling, market research and partner searches for U.S. exporters</li><li>Assisting U.S. exporters with market access barriers, trade compliance issues, and advocacy on foreign government contracts</li><li>Promoting inbound investment into the United States.</ul></p>" data-url="www.commerce.gov">
             <img src="./images/Connect_Team_03_US_department_of_commerce.png" alt="U.S. Department of Commerce">
             <p class="team-name">U.S. Department of Commerce</p>
           </a>
@@ -344,7 +345,7 @@
 
         <!-- Team 1 -->
         <div class="col-md-4">
-          <a href="#connect-team-popup" class="fancybox-thumb" data-desc="<p>Brief Description: USTDA links U.S. businesses to priority development projects in emerging economies.  USTDA has funded a number of activities aimed at connecting decision-makers from ASEAN Member States with U.S. companies providing advanced infrastructure solutions. </p><p>Services/Product Descriptions: <ul><li>Project preparation assistance: feasibility studies and pilot projects, technical assistance, training programs </li><li> Reverse trade missions</li><li> Conferences and workshops</ul></p>" data-url="http://www.ustda.gov">
+          <a href="#connect-team-popup" class="fancybox-thumb" data-desc="<p>Brief Description: USTDA links U.S. businesses to priority development projects in emerging economies.  USTDA has funded a number of activities aimed at connecting decision-makers from ASEAN Member States with U.S. companies providing advanced infrastructure solutions. </p><p>Services/Product Descriptions: <ul><li>Project preparation assistance: feasibility studies and pilot projects, technical assistance, training programs </li><li> Reverse trade missions</li><li> Conferences and workshops</ul></p>" data-url="www.ustda.gov">
             <img src="./images/Connect_Team_04_US_trade_development_agency.png" alt="U.S. Trade and Development Agency">
             <p class="team-name">U.S. Trade and Development Agency</p>
           </a>
@@ -352,7 +353,7 @@
 
         <!-- Team 1 -->
         <div class="col-md-4">
-          <a href="#connect-team-popup" class="fancybox-thumb" data-desc="<p>The Office of the U.S. Trade Representative (USTR) is responsible for developing and coordinating U.S. international trade, commodity, and direct investment policy, and overseeing negotiations with other countries. USTR is headed by the U.S. Trade Representative, a Cabinet member who serves as the President’s principal trade advisor, negotiator, and spokesperson on trade issues. </p><p>USTR provides trade policy leadership and negotiating expertise promoting the administration's trade policy to open markets throughout the world to create new opportunities and higher living standards for families, farmers, manufacturers, workers, consumers, and businesses.</p>" data-url="http://www.ustr.gov">
+          <a href="#connect-team-popup" class="fancybox-thumb" data-desc="<p>The Office of the U.S. Trade Representative (USTR) is responsible for developing and coordinating U.S. international trade, commodity, and direct investment policy, and overseeing negotiations with other countries. USTR is headed by the U.S. Trade Representative, a Cabinet member who serves as the President’s principal trade advisor, negotiator, and spokesperson on trade issues. </p><p>USTR provides trade policy leadership and negotiating expertise promoting the administration's trade policy to open markets throughout the world to create new opportunities and higher living standards for families, farmers, manufacturers, workers, consumers, and businesses.</p>" data-url="www.ustr.gov">
             <img src="./images/Connect_Team_05_office_of_the_US_trade_representative.png" alt="Office of the U.S. Trade Representative">
             <p class="team-name">Office of the U.S. Trade Representative</p>
           </a>
@@ -360,7 +361,7 @@
 
         <!-- Team 1 -->
         <div class="col-md-4">
-          <a href="#connect-team-popup" class="fancybox-thumb" data-desc="<p>The Department of Energy ensures America’s security and prosperity by addressing its energy, environmental and nuclear challenges through transformative science and technology solutions. </p><p>Services/Product Descriptions <ul> <li>Energy and climate change-related policy, technology, and legislation</li><li> Overcoming technical and non-technical barriers to energy technology commercialization and deployment </li><li> Research and development (R&D) strategies and policy</li></ul></p>" data-url="http://www.energy.gov">
+          <a href="#connect-team-popup" class="fancybox-thumb" data-desc="<p>The Department of Energy ensures America’s security and prosperity by addressing its energy, environmental and nuclear challenges through transformative science and technology solutions. </p><p>Services/Product Descriptions <ul> <li>Energy and climate change-related policy, technology, and legislation</li><li> Overcoming technical and non-technical barriers to energy technology commercialization and deployment </li><li> Research and development (R&D) strategies and policy</li></ul></p>" data-url="www.energy.gov">
             <img src="./images/Connect_Team_06_US_department_of_energy.png" alt="U.S. Department of Energy">
             <p class="team-name">U.S. Department of Energy</p>
           </a>
@@ -368,7 +369,7 @@
 
         <!-- Team 1 -->
         <div class="col-md-4">
-          <a href="#connect-team-popup" class="fancybox-thumb" data-desc="<p>The U.S. Department of the Treasury engages in bilateral and multilateral discussions with ASEAN partners on economic, financial and infrastructure development issues. It provides support from the Office of Technical Assistance (OTA). OTA's Government Debt and Infrastructure Finance advisors in the region contribute in the areas of policy development. </p><p>Services/Product Descriptions <ul><li>Public Private Partnership technical assistance in Transportation, Airports/Aviation, Rail and Energy/Renewable Energy sectors. </li><li>Developing local capital markets to create sustainable sources of financing to meet infrastructure costs </li><li>Policy development assistance in the renewable sector</li></ul></p>" data-url="http://www.treasury.gov">
+          <a href="#connect-team-popup" class="fancybox-thumb" data-desc="<p>The U.S. Department of the Treasury engages in bilateral and multilateral discussions with ASEAN partners on economic, financial and infrastructure development issues. It provides support from the Office of Technical Assistance (OTA). OTA's Government Debt and Infrastructure Finance advisors in the region contribute in the areas of policy development. </p><p>Services/Product Descriptions <ul><li>Public Private Partnership technical assistance in Transportation, Airports/Aviation, Rail and Energy/Renewable Energy sectors. </li><li>Developing local capital markets to create sustainable sources of financing to meet infrastructure costs </li><li>Policy development assistance in the renewable sector</li></ul></p>" data-url="www.treasury.gov">
             <img src="./images/Connect_Team_07_US_department_of_treasury.png" alt="U.S. Department of Treasury">
             <p class="team-name">U.S. Department of Treasury</p>
           </a>
@@ -376,7 +377,7 @@
 
         <!-- Team 1 -->
         <div class="col-md-4">
-          <a href="#connect-team-popup" class="fancybox-thumb" data-desc="<p>The Export-Import Bank of the United States (EXIM) is the official export credit agency of the United States. EXIM is an independent, self-sustaining federal agency with a mission of supporting American jobs by facilitating the export of U.S. goods and services – at no cost to U.S. taxpayers. </p><p> When the private sector is unable or unwilling to provide financing, EXIM fills in the gap for American businesses by equipping them with the financing support necessary to compete for global sales. In doing so, EXIM levels the playing field for U.S. exporters going up against foreign competition in overseas markets, enabling American companies to create and maintain more good-paying jobs here in the U.S.</p><p> Services/Product Descriptions <ul> <li>Export Credit Insurance - extends credit, protects against buyer nonpayment and improves U.S. exporters’ cash flow. </li><li> Working Capital Guarantee - makes funds available for small and medium-sized U.S. exporters to obtain credit lines for producing its goods and services to fulfill sales orders. </li><li> Term Financing - supports foreign buyers in purchasing U.S. capital goods and related services</li><ul></p>" data-url="http://www.exim.gov">
+          <a href="#connect-team-popup" class="fancybox-thumb" data-desc="<p>The Export-Import Bank of the United States (EXIM) is the official export credit agency of the United States. EXIM is an independent, self-sustaining federal agency with a mission of supporting American jobs by facilitating the export of U.S. goods and services – at no cost to U.S. taxpayers. </p><p> When the private sector is unable or unwilling to provide financing, EXIM fills in the gap for American businesses by equipping them with the financing support necessary to compete for global sales. In doing so, EXIM levels the playing field for U.S. exporters going up against foreign competition in overseas markets, enabling American companies to create and maintain more good-paying jobs here in the U.S.</p><p> Services/Product Descriptions <ul> <li>Export Credit Insurance - extends credit, protects against buyer nonpayment and improves U.S. exporters’ cash flow. </li><li> Working Capital Guarantee - makes funds available for small and medium-sized U.S. exporters to obtain credit lines for producing its goods and services to fulfill sales orders. </li><li> Term Financing - supports foreign buyers in purchasing U.S. capital goods and related services</li><ul></p>" data-url="www.exim.gov">
             <img src="./images/Connect_Team_08_export-import_bank_of_the_united_state.png" alt="Export-Import Bank of the United States">
             <p class="team-name">Export-Import Bank of the United States</p>
           </a>
@@ -384,7 +385,7 @@
 
         <!-- Team 1 -->
         <div class="col-md-4">
-          <a href="#connect-team-popup" class="fancybox-thumb" data-desc="<p>OPIC is the U.S. Government’s development finance institution. It mobilizes private capital to help address critical development challenges and in doing so, advances U.S. foreign policy and national security priorities. Because OPIC works with the U.S. private sector, it helps U.S. businesses gain footholds in emerging markets, catalyzing revenues, jobs and growth opportunities both at home and abroad. OPIC achieves its mission by providing investors with financing, political risk insurance, and support for private equity investment funds, when commercial funding cannot be obtained elsewhere. Established as an agency of the U.S. Government in 1971, OPIC operates on a self-sustaining basis at no net cost to American taxpayers. </p><p>Services/Product Descriptions: <ul><li>Debt Financing (loans & loan guarantees) </li><li> Political Risk Insurance </li><li> Support for Private Equity Funds</li></ul></p>" data-url="http://www.opic.gov">
+          <a href="#connect-team-popup" class="fancybox-thumb" data-desc="<p>OPIC is the U.S. Government’s development finance institution. It mobilizes private capital to help address critical development challenges and in doing so, advances U.S. foreign policy and national security priorities. Because OPIC works with the U.S. private sector, it helps U.S. businesses gain footholds in emerging markets, catalyzing revenues, jobs and growth opportunities both at home and abroad. OPIC achieves its mission by providing investors with financing, political risk insurance, and support for private equity investment funds, when commercial funding cannot be obtained elsewhere. Established as an agency of the U.S. Government in 1971, OPIC operates on a self-sustaining basis at no net cost to American taxpayers. </p><p>Services/Product Descriptions: <ul><li>Debt Financing (loans & loan guarantees) </li><li> Political Risk Insurance </li><li> Support for Private Equity Funds</li></ul></p>" data-url="www.opic.gov">
             <img src="./images/Connect_Team_09_overseas_privat_investment_corporation.png" alt="Overseas Private Investment Corporation">
             <p class="team-name">Overseas Private Investment Corporation</p>
           </a>

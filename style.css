@@ -496,32 +496,29 @@ body:not(.home) #navbar .menu li:first-child {
     margin-top: 30px;
     margin-bottom: 30px;
 }
-.connect-approach .icon-plus-round {
-    width: 23px;
-    height: 23px;
-    font-size: 1.5rem;
-    background: #56c5d0;
-    color: #fff;
+.connect-approach .icon-plus-circled {
+    font-size: 2.1rem;
+    color: #56c5d0;
     border-radius: 50%;
     line-height: 1;
-    text-align: center;
-    padding: 5px 0;
+    text-align: left;
     cursor: pointer;
     -webkit-transition: -webkit-transform 0.4s;
     transition: -webkit-transform 0.4s;
     transition: transform 0.4s;
     transition: transform 0.4s, -webkit-transform 0.4s;
-    vertical-align: middle;
+    vertical-align: middle;;
     margin-left: 5px;
-}
-.connect-approach .icon-plus-round:before {
-    width: 15px;
-    height: 14px;
     display: inline-block;
-    text-align: center;
-    vertical-align: initial;
+    transform-origin: center;
+    overflow: hidden;
+    width: 25px;
+    height: 25px;
+    padding: 2px 2px;
 }
-.connect-approach .icon-plus-round.opened {
+.connect-approach .icon-plus-circled:before {;
+}
+.connect-approach .icon-plus-circled.opened {
     -webkit-transform: rotate(135deg);
     transform: rotate(135deg);
 }
@@ -593,6 +590,15 @@ body:not(.home) #navbar .menu li:first-child {
 .connect-highlight .slide {
     background-size: cover;
     background-position: top center;
+}
+.connect-highlight .slide-bg {
+    position: absolute;
+    width: 50%;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-size: cover;
+    background-position: center center;
 }
 .connect-highlight .slide-wrapper {
     position: absolute;
@@ -928,6 +934,26 @@ body:not(.home) #navbar .menu li:first-child {
 .flag-partners {
     display: inline-block;
     position: relative;
+}
+.flag-partners .flag-center {
+    position: absolute;
+    text-indent: -9999px;
+    width: 40%;
+    height: 40%;
+    top: 50%;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    overflow: hidden;
+    transform: translateY(-50%);
+    z-index: 20;
+}
+.flag-partners .flag-center a {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
 }
 .flag-partners .flag-wrapper {
     position: absolute;

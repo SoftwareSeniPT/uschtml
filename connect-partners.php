@@ -18,35 +18,38 @@
         <div class="col-md-6">
           <div class="flag-partners">
             <img src="./images/Flag_partners_page.png" alt="">
+            <span class="flag-center">
+              <a href="https://asean.usmission.gov/" class="flag" target="_blank">U.S. Mission to ASEAN</a>
+            </span>
             <span class="flag-wrapper flag1">
-              <a href="https://www.brunei.gov.bn" class="flag" target="_blank">Brunei Darussalam</a>
+              <a href="http://brunei.usembassy.gov/" class="flag" target="_blank">Brunei Darussalam</a>
             </span>
             <span class="flag-wrapper flag2">
-              <a href="#" class="flag" target="_blank">Cambodja</a>
+              <a href="https://kh.usembassy.gov/" class="flag" target="_blank">Cambodja</a>
             </span>
             <span class="flag-wrapper flag3">
-              <a href="#" class="flag" target="_blank">Indonesia</a>
+              <a href="https://id.usembassy.gov/" class="flag" target="_blank">Indonesia</a>
             </span>
             <span class="flag-wrapper flag4">
-              <a href="#" class="flag" target="_blank">Lao PDR</a>
+              <a href="https://la.usembassy.gov/" class="flag" target="_blank">Lao PDR</a>
             </span>
             <span class="flag-wrapper flag5">
-              <a href="#" class="flag" target="_blank">Malaysia</a>
+              <a href="https://my.usembassy.gov/" class="flag" target="_blank">Malaysia</a>
             </span>
             <span class="flag-wrapper flag6">
-              <a href="#" class="flag" target="_blank">Myanmar</a>
+              <a href="http://burma.usembassy.gov/" class="flag" target="_blank">Myanmar</a>
             </span>
             <span class="flag-wrapper flag7">
-              <a href="#" class="flag" target="_blank">Philippines</a>
+              <a href="https://ph.usembassy.gov/" class="flag" target="_blank">Philippines</a>
             </span>
             <span class="flag-wrapper flag8">
-              <a href="#" class="flag" target="_blank">Singapore</a>
+              <a href="http://singapore.usembassy.gov/" class="flag" target="_blank">Singapore</a>
             </span>
             <span class="flag-wrapper flag9">
-              <a href="#" class="flag" target="_blank">Thailand</a>
+              <a href="https://th.usembassy.gov/" class="flag" target="_blank">Thailand</a>
             </span>
             <span class="flag-wrapper flag10">
-              <a href="#" class="flag" target="_blank">Vietnam</a>
+              <a href="https://vn.usembassy.gov/" class="flag" target="_blank">Vietnam</a>
             </span>
           </div>
         </div>

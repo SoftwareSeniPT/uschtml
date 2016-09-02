@@ -15,9 +15,20 @@ var app = {
         app.connectEventViewMore();
         app.connectTeamPopup();
         app.wrapConnectTeam();
+        app.sliceSlideBackground();
     },
     wrapConnectTeam: function(){
       jQuery(".connect-team .fancybox-thumb img").wrap("<div class=\"image\"></div>");
+    },
+    sliceSlideBackground: function(){
+      var slide = jQuery(".home .slideshow .slide");
+      slide.each(function(){
+        var bg = jQuery(this).css('background-image');
+        bg = bg.replace('url(', '').replace(')', '').replace(/\"/gi, "");
+        jQuery(this).append("<div class=\"slide-bg\" style=\"background-image: url("+bg+")\"></div>");
+        jQuery(this).css({backgroundImage: "none"});
+        jQuery(this).data("background-image", bg);
+      });
     },
     onResize: function() {
         /* This function called everytime user change the screen size */
@@ -38,7 +49,7 @@ var app = {
         // Desc
         jQuery("#connect-team-popup").find(".desc").html(desc);
         // url
-        jQuery("#connect-team-popup").find(".url a").text(url).attr("href", url);
+        jQuery("#connect-team-popup").find(".url a").text(url).attr("href", "http://" + url);
         // Imaage
         jQuery("#connect-team-popup").find(".image img").attr("src", image);
       });
@@ -157,10 +168,10 @@ var app = {
          * Connect Approach section and handle the click event
          */
         var $list = jQuery(".connect-approach ul");
-        $list.before("<i class=\"icon-plus-round\">"); // Insert toogle bullet icon
+        $list.before("<i class=\"icon-plus-circled\">"); // Insert toogle bullet icon
 
         // Handle when click on icon
-        jQuery(document).on("click", ".icon-plus-round", function() {
+        jQuery(document).on("click", ".icon-plus-circled", function() {
             if (!jQuery(this).hasClass("opened")) {
                 jQuery(this).addClass("opened")
                 jQuery(this).next().slideDown();

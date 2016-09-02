@@ -108,7 +108,7 @@
       <!-- // Item -->
 
       <!-- View more button -->
-      <div class="view-more-resources"><a href="#">View More Resources</a></div>
+      <!-- <div class="view-more-resources"><a href="#">View More Resources</a></div> -->
     </div>
   </section>
 

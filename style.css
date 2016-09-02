@@ -445,7 +445,7 @@ body:not(.home) #navbar .menu li:first-child {
     font-size: 1.8rem;
     font-family: 'Oswald', sans-serif;
     font-weight: 300;
-    padding: 0 20%;
+    padding: 0 6%;
     text-align: center;
     opacity: 0;
     width: auto;
@@ -453,6 +453,10 @@ body:not(.home) #navbar .menu li:first-child {
     cursor: pointer;
     -webkit-transition: opacity 0.4s cubic-bezier(0.77, 0, 0.175, 1);
     transition: opacity 0.4s cubic-bezier(0.77, 0, 0.175, 1);
+}
+.infographic .infographic-desc a {
+  color: #fff;
+  text-decoration: underline;
 }
 .infographic .info-wrapper:hover .infographic-desc {
     opacity: 1;

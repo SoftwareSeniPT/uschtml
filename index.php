@@ -206,7 +206,7 @@
               </div>
             </div>
         </div>
-        <div class="slide" style="background-image: url('./images/US_ASEAN_Logo_HFullColorV2.png')">
+        <div class="slide" style="background-image: url('./images/windfarm-image.jpg')">
             <div class="slide-wrapper">
               <div class="container">
                   <div class="row">
@@ -304,7 +304,7 @@
         <!-- Item 1 -->
         <div class="col-md-4">
           <!-- Title -->
-          <h3>Stay Tuned for More Connect Events.</h3>
+          <h3>Stay Tuned for More Connect Events</h3>
           <!-- Image -->
           <a href="./resources-detail.php" class="image-wrapper">
             <div class="image" style="background-image: url(./images/horizontal-us-asean.png)"></div>

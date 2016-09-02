@@ -59,7 +59,7 @@
     <div class="col-md-4">
       <div class="info-wrapper">
         <img src="./images/01-connect-story-infographic.jpg" alt="">
-        <div class="fancybox-thumb infographic-desc" rel="fancybox-thumb" href="./images/01-connect-story-infographic.jpg" title="Asean Market">
+        <div class="fancybox-thumb infographic-desc" rel="fancybox-thumb" href="./images/01-connect-story-infographic.jpg" title="Infographic design source: ASEANup (<a href='http://aseanup.com/asean-infographics-population-market-economy' target='_blank'>http://aseanup.com/asean-infographics-population-market-economy/</a>)">
           <h3>Asean Market</h3>
           <p>Infographic</p>
         </div>
@@ -70,7 +70,7 @@
     <div class="col-md-4">
       <div class="info-wrapper">
         <img src="./images/03-connect-story-infographic.jpg" alt="">
-        <div class="fancybox-thumb infographic-desc" rel="fancybox-thumb" href="./images/03-connect-story-infographic.jpg" title="US-Asia Direct Investment">
+        <div class="fancybox-thumb infographic-desc" rel="fancybox-thumb" href="./images/03-connect-story-infographic.jpg" title="Infographic source: ASEAN Matters for America by U.S.-ASEAN Business Council, the East-West Center, and ISEAS (<a target='_blank' href='https://www.usasean.org/why-asean/investment'>https://www.usasean.org/why-asean/investment</a>)">
           <h3>US-Asia Direct Investment</h3>
           <p>Infographic</p>
         </div>
@@ -81,7 +81,7 @@
     <div class="col-md-4">
       <div class="info-wrapper">
         <img src="./images/02-connect-story-infographic.jpg" alt="">
-        <div class="fancybox-thumb infographic-desc" rel="fancybox-thumb" href="./images/02-connect-story-infographic.jpg" title="Asean Economy">
+        <div class="fancybox-thumb infographic-desc" rel="fancybox-thumb" href="./images/02-connect-story-infographic.jpg" title="Infographic design source: ASEANup (<a href='http://aseanup.com/asean-infographics-population-market-economy' target='_blank'>http://aseanup.com/asean-infographics-population-market-economy/</a>)">
           <h3>Asean Economy</h3>
           <p>Infographic</p>
         </div>
@@ -149,8 +149,9 @@
             <p class="point-heading">NEW programs and Activities</p>
             <ul>
                 <li>
-                  <p><strong>Digital Economy Initiative</strong> - This cross-cutting initiative will begin with a U.S. government-sponsored assessment paper on the important digital economy challenges and opportunities that lie ahead for the region, followed by a series of public-private policy engagements focused on best practices and on how to develop a policy and regulatory ecosystem that fosters a thriving digital economy, and accompanied by a variety of capacity-building activities delivered through the U.S.-ASEAN Information and Communications Technology Workplan. The initiative will focus on the primary drivers of a successful digital economy, including e-commerce, digital entrepreneurship, mobile payments, and broadband connectivity, among other topics. The initiative will support ASEAN in developing an open and integrated digital economy that can drive innovation and inclusive economic growth.</p>
-                  <p>Coordinating Agencies: USAID, U.S. Dept. of State, OPIC, USTDA, Federal Communications Commission</p>
+                  <p><strong>Digital Economy Initiative</strong> - This cross-cutting initiative will focus on the primary drivers of a successful digital economy to support ASEAN in developing an open and integrated digital economy that can drive innovation and inclusive economic growth.</p>
+
+                  <p>The initiative will begin with an assessment paper on the key regional digital economy challenges and opportunities, followed by a series of public-private policy engagements focused on best practices and on how to develop a policy and regulatory ecosystem that fosters a thriving digital economy, and accompanied by a variety of capacity-building activities delivered through the U.S.-ASEAN Information and Communications Technology Workplan.</p>
                 </li>
             </ul>
         </div>
@@ -186,7 +187,7 @@
                   <div class="row">
                       <div class="col-md-6 slide-caption">
                           <h2>U.S.-ASEAN Connect Launches</h2>
-                          <p>President Obama announced the official launch of U.S.-ASEAN Connect during the 4th U.S.-ASEAN Summit on September 8th to deepen and strengthen our economic relationship. Scroll down for more information on this new strategic framework and for information on newly announced programs and activities. U.S. Continues Support of Entrepreneurship and Sustainable Development through Connect.</p>
+                          <p>President Obama announced the official launch of U.S.-ASEAN Connect during the 4th U.S.-ASEAN Summit on September 8th to deepen and strengthen our economic relationship. Scroll down for more information on this new strategic framework and for information on newly announced programs and activities.</p>
                       </div>
                   </div>
               </div>
@@ -197,7 +198,7 @@
               <div class="container">
                   <div class="row">
                       <div class="col-md-6 slide-caption">
-                          <h2>U.S. Ambassador to ASEAN Nina Hachigian Welcomes the Launch of Connect</h2>
+                          <h2>U.S. AMBASSADOR TO ASEAN WELCOMES THE LAUNCH OF CONNECT</h2>
                           <p>Last November, the United States and ASEAN elevated our relationship to a strategic partnership. Then in February, President Obama hosted ASEAN’s leaders in the United States at a historic summit in Sunnylands, California. I was fortunate to be there, and it was exhilarating to witness the commitment to a shared vision for a prosperous future.</p>
                           <a href="./resources-detail.php" class="read-more">Read More</a>
                       </div>
@@ -210,8 +211,8 @@
               <div class="container">
                   <div class="row">
                       <div class="col-md-6 slide-caption">
-                          <h2>Recent Connect-ions!</h2>
-                          <p>Between the announcement of U.S.-ASEAN Connect at the U.S.-ASEAN Leaders’ Summit in Sunnylands, California and its official launch at the 4th U.S.-ASEAN Summit in Lao PDR, we’ve been busy. In addition to developing the new programs detailed in the Connect Approach section of this site, the U.S. government Connect team has been hard at work delivering Connect programs to advance our shared vision for a successful ASEAN Economic Community:</p>
+                          <h2>U.S. Continues Support of Entrepreneurship and Sustainable Development through Connect</h2>
+                          <p>Between the announcement of U.S.-ASEAN Connect at the U.S.-ASEAN Leaders’ Summit in Sunnylands, California and its official launch at the 4th U.S.-ASEAN Summit in Lao PDR, we’ve been busy.</p>
                           <a href="./resources-detail.php" class="read-more">Read More</a>
                       </div>
                   </div>
@@ -300,9 +301,18 @@
           <a href="./resources-detail.php" class="read-more">Read More</a>
         </div>
 
-        <!-- Stay tune for more event -->
-        <div class="col-md-4 stay-tune-label">
-          <h3>Stay Tuned for More Connect Events</h3>
+        <!-- Item 1 -->
+        <div class="col-md-4">
+          <!-- Title -->
+          <h3>Stay Tuned for More Connect Events.</h3>
+          <!-- Image -->
+          <a href="./resources-detail.php" class="image-wrapper">
+            <div class="image" style="background-image: url(./images/horizontal-us-asean.png)"></div>
+          </a>
+          <!-- Excerpt -->
+          <div class="excerpt">
+            Continue to watch this space for information about new U.S.-ASEAN Connect events.
+          </div>
         </div>
       </div>
       <!-- // Item grid -->
@@ -321,7 +331,7 @@
       <div class="row">
         <!-- Team 1 -->
         <div class="col-md-4">
-          <a href="#connect-team-popup" class="fancybox-thumb" data-desc="Through our assistance programs, USAID plays an active and critical role in the promotion of U.S. foreign policy interests. The investment we make in developing countries has long-term benefits for America and the American people. Development now takes its place alongside defense and diplomacy as the three essential components of American foreign policy." data-url="www.usaid.gov">
+          <a href="#connect-team-popup" class="fancybox-thumb" data-desc="<p>Through our assistance programs, USAID plays an active and critical role in the promotion of U.S. foreign policy interests. The investment we make in developing countries has long-term benefits for America and the American people. Development now takes its place alongside defense and diplomacy as the three essential components of American foreign policy.</p> <p>Services/Product Descriptions:</p> <p>Spending less than 1 percent of the total federal budget, we work in over 100 countries to:</p> <ul> <li>End extreme global poverty</li> <li>Enable resilient, democratic societies to realize their potential, and</li> <li>Advance U.S. security and prosperity</li></ul>" data-url="www.usaid.gov">
             <img src="./images/Connect_Team_01_usaid_logo.png" alt="Usaid">
             <p class="team-name">Usaid</p>
           </a>
@@ -329,7 +339,7 @@
 
         <!-- Team 1 -->
         <div class="col-md-4">
-          <a href="#connect-team-popup" class="fancybox-thumb" data-desc="The Department is responsible for promoting peace and stability in areas of vital interest to America, and helping developing nations establish stable economic environments. It is a source of support for American businesses abroad, working to achieve fair business practices in commerce, trade, manufacturing and other interests—while also identifying viable opportunities for American businesses." data-url="www.state.gov">
+          <a href="#connect-team-popup" class="fancybox-thumb" data-desc="<ul><li>The Department is responsible for promoting peace and stability in areas of vital interest to America, and helping developing nations establish stable economic environments. </li><li>It is a source of support for American businesses abroad, working to achieve fair business practices in commerce, trade, manufacturing and other interests—while also identifying viable opportunities for American businesses.</li></ul>" data-url="www.state.gov">
             <img src="./images/Connect_Team_02-US_department_state.png" alt="U.S. Department of State">
             <p class="team-name">U.S. Department of State</p>
           </a>
@@ -361,15 +371,15 @@
 
         <!-- Team 1 -->
         <div class="col-md-4">
-          <a href="#connect-team-popup" class="fancybox-thumb" data-desc="<p>The Department of Energy ensures America’s security and prosperity by addressing its energy, environmental and nuclear challenges through transformative science and technology solutions. </p><p>Services/Product Descriptions <ul> <li>Energy and climate change-related policy, technology, and legislation</li><li> Overcoming technical and non-technical barriers to energy technology commercialization and deployment </li><li> Research and development (R&D) strategies and policy</li></ul></p>" data-url="www.energy.gov">
-            <img src="./images/Connect_Team_06_US_department_of_energy.png" alt="U.S. Department of Energy">
-            <p class="team-name">U.S. Department of Energy</p>
+          <a href="#connect-team-popup" class="fancybox-thumb" data-desc="<p>OPIC is the U.S. Government’s development finance institution. It mobilizes private capital to help address critical development challenges and in doing so, advances U.S. foreign policy and national security priorities. Because OPIC works with the U.S. private sector, it helps U.S. businesses gain footholds in emerging markets, catalyzing revenues, jobs and growth opportunities both at home and abroad. OPIC achieves its mission by providing investors with financing, political risk insurance, and support for private equity investment funds, when commercial funding cannot be obtained elsewhere. Established as an agency of the U.S. Government in 1971, OPIC operates on a self-sustaining basis at no net cost to American taxpayers. </p><p>Services/Product Descriptions: <ul><li>Debt Financing (loans & loan guarantees) </li><li> Political Risk Insurance </li><li> Support for Private Equity Funds</li></ul></p>" data-url="www.opic.gov">
+            <img src="./images/Connect_Team_09_overseas_privat_investment_corporation.png" alt="Overseas Private Investment Corporation">
+            <p class="team-name">Overseas Private Investment Corporation</p>
           </a>
         </div>
 
         <!-- Team 1 -->
         <div class="col-md-4">
-          <a href="#connect-team-popup" class="fancybox-thumb" data-desc="<p>The U.S. Department of the Treasury engages in bilateral and multilateral discussions with ASEAN partners on economic, financial and infrastructure development issues. It provides support from the Office of Technical Assistance (OTA). OTA's Government Debt and Infrastructure Finance advisors in the region contribute in the areas of policy development. </p><p>Services/Product Descriptions <ul><li>Public Private Partnership technical assistance in Transportation, Airports/Aviation, Rail and Energy/Renewable Energy sectors. </li><li>Developing local capital markets to create sustainable sources of financing to meet infrastructure costs </li><li>Policy development assistance in the renewable sector</li></ul></p>" data-url="www.treasury.gov">
+          <a href="#connect-team-popup" class="fancybox-thumb" data-desc="<p>The U.S. Department of the Treasury engages in bilateral and multilateral discussions with ASEAN partners on economic, financial and infrastructure development issues. It provides support from the Office of Technical Assistance (OTA). OTA's Government Debt and Infrastructure Finance advisors in the region contribute in the areas of policy development. </p><p>Services/Product Descriptions: <ul><li>Public Private Partnership technical assistance in Transportation, Airports/Aviation, Rail and Energy/Renewable Energy sectors. </li><li>Developing local capital markets to create sustainable sources of financing to meet infrastructure costs </li><li>Policy development assistance in the renewable sector</li></ul></p>" data-url="www.treasury.gov">
             <img src="./images/Connect_Team_07_US_department_of_treasury.png" alt="U.S. Department of Treasury">
             <p class="team-name">U.S. Department of Treasury</p>
           </a>
@@ -377,7 +387,7 @@
 
         <!-- Team 1 -->
         <div class="col-md-4">
-          <a href="#connect-team-popup" class="fancybox-thumb" data-desc="<p>The Export-Import Bank of the United States (EXIM) is the official export credit agency of the United States. EXIM is an independent, self-sustaining federal agency with a mission of supporting American jobs by facilitating the export of U.S. goods and services – at no cost to U.S. taxpayers. </p><p> When the private sector is unable or unwilling to provide financing, EXIM fills in the gap for American businesses by equipping them with the financing support necessary to compete for global sales. In doing so, EXIM levels the playing field for U.S. exporters going up against foreign competition in overseas markets, enabling American companies to create and maintain more good-paying jobs here in the U.S.</p><p> Services/Product Descriptions <ul> <li>Export Credit Insurance - extends credit, protects against buyer nonpayment and improves U.S. exporters’ cash flow. </li><li> Working Capital Guarantee - makes funds available for small and medium-sized U.S. exporters to obtain credit lines for producing its goods and services to fulfill sales orders. </li><li> Term Financing - supports foreign buyers in purchasing U.S. capital goods and related services</li><ul></p>" data-url="www.exim.gov">
+          <a href="#connect-team-popup" class="fancybox-thumb" data-desc="<p>The Export-Import Bank of the United States (EXIM) is the official export credit agency of the United States. EXIM is an independent, self-sustaining federal agency with a mission of supporting American jobs by facilitating the export of U.S. goods and services – at no cost to U.S. taxpayers. </p><p> When the private sector is unable or unwilling to provide financing, EXIM fills in the gap for American businesses by equipping them with the financing support necessary to compete for global sales. In doing so, EXIM levels the playing field for U.S. exporters going up against foreign competition in overseas markets, enabling American companies to create and maintain more good-paying jobs here in the U.S.</p><p> Services/Product Descriptions: <ul> <li>Export Credit Insurance - extends credit, protects against buyer nonpayment and improves U.S. exporters’ cash flow. </li><li> Working Capital Guarantee - makes funds available for small and medium-sized U.S. exporters to obtain credit lines for producing its goods and services to fulfill sales orders. </li><li> Term Financing - supports foreign buyers in purchasing U.S. capital goods and related services</li><ul></p>" data-url="www.exim.gov">
             <img src="./images/Connect_Team_08_export-import_bank_of_the_united_state.png" alt="Export-Import Bank of the United States">
             <p class="team-name">Export-Import Bank of the United States</p>
           </a>
@@ -385,9 +395,9 @@
 
         <!-- Team 1 -->
         <div class="col-md-4">
-          <a href="#connect-team-popup" class="fancybox-thumb" data-desc="<p>OPIC is the U.S. Government’s development finance institution. It mobilizes private capital to help address critical development challenges and in doing so, advances U.S. foreign policy and national security priorities. Because OPIC works with the U.S. private sector, it helps U.S. businesses gain footholds in emerging markets, catalyzing revenues, jobs and growth opportunities both at home and abroad. OPIC achieves its mission by providing investors with financing, political risk insurance, and support for private equity investment funds, when commercial funding cannot be obtained elsewhere. Established as an agency of the U.S. Government in 1971, OPIC operates on a self-sustaining basis at no net cost to American taxpayers. </p><p>Services/Product Descriptions: <ul><li>Debt Financing (loans & loan guarantees) </li><li> Political Risk Insurance </li><li> Support for Private Equity Funds</li></ul></p>" data-url="www.opic.gov">
-            <img src="./images/Connect_Team_09_overseas_privat_investment_corporation.png" alt="Overseas Private Investment Corporation">
-            <p class="team-name">Overseas Private Investment Corporation</p>
+          <a href="#connect-team-popup" class="fancybox-thumb" data-desc="<p>The Department of Energy ensures America’s security and prosperity by addressing its energy, environmental and nuclear challenges through transformative science and technology solutions. </p><p>Services/Product Descriptions: <ul> <li>Energy and climate change-related policy, technology, and legislation</li><li> Overcoming technical and non-technical barriers to energy technology commercialization and deployment </li><li> Research and development (R&D) strategies and policy</li></ul></p>" data-url="www.energy.gov">
+            <img src="./images/Connect_Team_06_US_department_of_energy.png" alt="U.S. Department of Energy">
+            <p class="team-name">U.S. Department of Energy</p>
           </a>
         </div>
 
@@ -405,7 +415,7 @@
         <li> <i class="icon-mail"></i> Aaron Tarver (<a href="mailto:TarverWA@state.gov">TarverWA@state.gov</a>)</li>
         <li> <i class="icon-mail"></i> Cash McCracken (<a href="mailto:McCrackenCL@state.gov">McCrackenCL@state.gov</a>)</li>
       </ul>
-      <p>For more specific questions about services provided about a particular agency, please utilize the contact details on the team page</p>
+      <p>For more specific details about services provided about a particular agency, please see the Connect Team section</p>
     </div>
   </section>
   <!-- // Connect contact -->

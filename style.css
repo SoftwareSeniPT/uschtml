@@ -664,6 +664,7 @@ body:not(.home) #navbar .menu li:first-child {
     color: #262262;
     font-size: 3.7rem;
     line-height: 1;
+    cursor: pointer;
 }
 .connect-highlight .cycle-pager .cycle-pager-active {
     color: #57c6d1;
@@ -698,7 +699,7 @@ body:not(.home) #navbar .menu li:first-child {
     text-align: left;
 }
 .image-wrapper {
-    padding-bottom: 90%;
+    padding-bottom: 100%;
     position: relative;
     border-radius: 10px;
     overflow: hidden;
@@ -713,6 +714,7 @@ body:not(.home) #navbar .menu li:first-child {
     bottom: 0;
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center center;
 }
 .read-more {
     background: #d2364a;
@@ -937,6 +939,15 @@ body:not(.home) #navbar .menu li:first-child {
 }
 .connect-partner-partner {
     text-align: center;
+    font-size: 0;
+}
+.connect-partner-partner [class^="col-md-"] {
+    max-width: 25%;
+    width: auto;
+    float: none;
+    display: inline-block;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 .flag-partners {
     display: inline-block;
@@ -1076,8 +1087,6 @@ body:not(.home) #navbar .menu li:first-child {
     font-family: 'object-fit: contain;';
     top: 0;
     height: 100%;
-    padding: 20px;
-    padding-bottom: 50px;
 }
 .resource-item .read-more {
     margin-top: 12px;
@@ -1171,6 +1180,9 @@ body:not(.home) #navbar .menu li:first-child {
     max-width: 400px;
     text-align: center;
     font-size: 1.5rem;
+}
+#connect-team-popup .desc {
+  text-align: justify;
 }
 #connect-team-popup ul {
     text-align: left;

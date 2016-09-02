@@ -82,6 +82,13 @@ var app = {
             jQuery(this).text(text);
 
             jQuery("." + className).hide();
+
+            // Back to top
+            var headerHeight = jQuery("#header").outerHeight();
+            jQuery('html, body').animate({
+                scrollTop: jQuery(".connect-events").offset().top - headerHeight
+            }, 500);
+
           }
           return false;
         });

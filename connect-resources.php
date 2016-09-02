@@ -35,7 +35,7 @@
         <div class="row">
           <div class="col-md-3">
             <div class="image-wrapper">
-              <img src="./images/download-pdf.png" alt="Download PDF" />
+              <img src="./images/pdf-thumb2.png" alt="Download PDF" />
               <div class="item-btn">
                 <a href="./pdfs/US-ASEANConnectOverview.pdf" target="_blank">View</a>
                 <a href="./pdfs/US-ASEANConnectOverview.pdf" target="_blank">Download</a>
@@ -54,7 +54,7 @@
         <div class="row">
           <div class="col-md-3">
             <div class="image-wrapper">
-              <img src="./images/download-pdf.png" alt="Download PDF" />
+              <img src="./images/pdf-thumb3.png" alt="Download PDF" />
               <div class="item-btn">
                 <a href="./pdfs/FS_WomensLivelihoodBond_August 2016.pdf" target="_blank">View</a>
                 <a href="./pdfs/FS_WomensLivelihoodBond_August 2016.pdf" target="_blank">Download</a>
@@ -73,7 +73,7 @@
         <div class="row">
           <div class="col-md-3">
             <div class="image-wrapper">
-              <img src="./images/download-pdf.png" alt="Download PDF" />
+              <img src="./images/thumb-pdf-3.png" alt="Download PDF" />
               <div class="item-btn">
                 <a href="./pdfs/ASEANSMEAcademFactSheet.pdf" target="_blank">View</a>
                 <a href="./pdfs/ASEANSMEAcademFactSheet.pdf" target="_blank">Download</a>
@@ -92,7 +92,7 @@
         <div class="row">
           <div class="col-md-3">
             <div class="image-wrapper">
-              <img src="./images/download-pdf.png" alt="Download PDF" />
+              <img src="./images/thumbpdf-4.png" alt="Download PDF" />
               <div class="item-btn">
                 <a href="./pdfs/ACTI-Asean-Single-Window_Dec-2015_FINAL.PDF" target="_blank">View</a>
                 <a href="./pdfs/ACTI-Asean-Single-Window_Dec-2015_FINAL.PDF" target="_blank">Download</a>
@@ -106,26 +106,28 @@
         </div>
       </div>
       <!-- // Item -->
+      <!-- Item -->
+      <div class="resource-item">
+        <div class="row">
+          <div class="col-md-3">
+            <div class="image-wrapper">
+              <img src="./images/thumbpdf5.png" alt="Download PDF" />
+              <div class="item-btn">
+                <a href="./pdfs/CleanPowerAsiaFactSheet.pdf" target="_blank">View</a>
+                <a href="./pdfs/CleanPowerAsiaFactSheet.pdf" target="_blank">Download</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-9">
+            <h3>USAID CLEAN POWER ASIA</h3>
+            <p>The USAID Clean Power Asia initiative works with Lower Mekong countries and other Association of Southeast Asian Nations (ASEAN) member states to encourage power sector investments in environmentally-friendly, clean energy sources. The initiative specifically focuses on bringing greater quantities of renewable energy into the region’s electricity grids.</p>
+          </div>
+        </div>
+      </div>
+      <!-- // Item -->
 
       <!-- View more button -->
       <!-- <div class="view-more-resources"><a href="#">View More Resources</a></div> -->
-    </div>
-  </section>
-
-  <!-- Bottom Links -->
-  <section class="resources-bottom-link">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-4">
-          <a href="#" target="_blank">Connect Announcement Fact Sheet</a>
-        </div>
-        <div class="col-md-4">
-          <a href="#" target="_blank">Connect Launch Fact Sheet</a>
-        </div>
-        <div class="col-md-4">
-          <a href="#" target="_blank">Connect Overview Document</a>
-        </div>
-      </div>
     </div>
   </section>
 </div>

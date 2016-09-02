@@ -10,8 +10,31 @@
         padding-left: 30px;
         padding-right: 30px;
     }
+    .connect-highlight .slide:before {
+        width: 100%;
+        background-color: rgba(0, 0, 0, 0.32);
+    }
+    .connect-highlight .slide-caption {
+        color: #fff;
+        padding-left: 110px;
+        padding-right: 110px;
+        width: 100%;
+    }
+    .col-md-6.slide-caption h2 {
+        color: #fff;
+    }
+    .connect-highlight .slide-bg {
+      width: 100%;
+    }
+    .connect-highlight .slideshow .cycle-pager {
+        right: 0;
+    }
 }
 @media (max-width: 668px) {
+    [class^="col-md-"] {
+        width: 100%;
+        margin: 15px 0;
+    }
     .connect-story-grid .grid-image {
         position: relative;
         width: 100%;
@@ -26,10 +49,7 @@
         min-height: 0;
         margin: 30px 0;
     }
-    [class^="col-md-"] {
-        width: 100%;
-        margin: 15px 0;
-    }
+
     #footer [class^="col-md-"] {
         margin: 0;
     }
@@ -45,19 +65,6 @@
     }
     .connect-approach-item> div:first-child {
         margin-bottom: 20px;
-    }
-    .infographic [class^="col-md-"] {}
-    .connect-highlight .slide:before {
-        width: 100%;
-        background-color: rgba(0, 0, 0, 0.32);
-    }
-    .connect-highlight .slide-caption {
-        color: #fff;
-        padding-left: 70px;
-        padding-right: 70px;
-    }
-    .col-md-6.slide-caption h2 {
-        color: #fff;
     }
     .connect-highlight .arrow {
         font-size: 3rem;
@@ -91,14 +98,15 @@
         max-width: 480px;
         margin: 0 auto;
     }
-    .connect-highlight .slideshow .cycle-pager {
-        right: 0;
-    }
     .connect-approach-item [class^="col-md-"]:first-child {
         text-align: left;
     }
     .homepage .connect-team {
         margin-top: 30px;
+    }
+    .connect-highlight .slide-caption {
+      padding-left: 70px;
+      padding-right: 70px;
     }
 }
 @media (max-width: 480px) {

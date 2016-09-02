@@ -589,6 +589,7 @@ body:not(.home) #navbar .menu li:first-child {
     right: 0;
     height: 100%;
     width: 100%;
+    z-index: 3;
 }
 .connect-highlight .slide {
     background-size: cover;
@@ -602,6 +603,7 @@ body:not(.home) #navbar .menu li:first-child {
     bottom: 0;
     background-size: cover;
     background-position: center center;
+    z-index: 2;
 }
 .connect-highlight .slide-wrapper {
     position: absolute;
@@ -609,6 +611,7 @@ body:not(.home) #navbar .menu li:first-child {
     bottom: 0;
     left: 0;
     right: 0;
+    z-index: 4;
 }
 .connect-highlight .slide:before {
     content: "";

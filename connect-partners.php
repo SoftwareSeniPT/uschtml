@@ -52,6 +52,7 @@
               <a href="https://vn.usembassy.gov/" class="flag" target="_blank">Vietnam</a>
             </span>
           </div>
+          <p class="flag-info">Click the flags to visit the websites of the respective U.S. Embassy</p>
         </div>
       </div>
     </div>

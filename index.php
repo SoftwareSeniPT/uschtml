@@ -59,9 +59,9 @@
     <div class="col-md-4">
       <div class="info-wrapper">
         <img src="./images/01-connect-story-infographic.jpg" alt="">
-        <div class="fancybox-thumb infographic-desc" rel="fancybox-thumb" href="./images/01-connect-story-infographic.jpg">
+        <div class="fancybox-thumb infographic-desc" rel="fancybox-thumb" href="./images/01-connect-story-infographic.jpg" title="Infographic design source: ASEANup (<a href='http://aseanup.com/asean-infographics-population-market-economy' target='_blank'>http://aseanup.com/asean-infographics-population-market-economy/</a>)">
           <h3>Asean Market</h3>
-          <p>Infographic design source: ASEANup (<a href='http://aseanup.com/asean-infographics-population-market-economy' target='_blank'>http://aseanup.com/asean-infographics-population-market-economy/</a>)</p>
+          <p>Infographic</p>
         </div>
       </div>
     </div>
@@ -70,9 +70,9 @@
     <div class="col-md-4">
       <div class="info-wrapper">
         <img src="./images/03-connect-story-infographic.jpg" alt="">
-        <div class="fancybox-thumb infographic-desc" rel="fancybox-thumb" href="./images/03-connect-story-infographic.jpg">
+        <div class="fancybox-thumb infographic-desc" rel="fancybox-thumb" href="./images/03-connect-story-infographic.jpg" title="Infographic source: ASEAN Matters for America by U.S.-ASEAN Business Council, the East-West Center, and ISEAS (<a target='_blank' href='https://www.usasean.org/why-asean/investment'>https://www.usasean.org/why-asean/investment</a>)">
           <h3>US-Asia Direct Investment</h3>
-          <p>Infographic source: ASEAN Matters for America by U.S.-ASEAN Business Council, the East-West Center, and ISEAS (<a target='_blank' href='https://www.usasean.org/why-asean/investment'>https://www.usasean.org/why-asean/investment</a>)</p>
+          <p>Infographic</p>
         </div>
       </div>
     </div>
@@ -81,9 +81,9 @@
     <div class="col-md-4">
       <div class="info-wrapper">
         <img src="./images/02-connect-story-infographic.jpg" alt="">
-        <div class="fancybox-thumb infographic-desc" rel="fancybox-thumb" href="./images/02-connect-story-infographic.jpg">
+        <div class="fancybox-thumb infographic-desc" rel="fancybox-thumb" href="./images/02-connect-story-infographic.jpg" title="Infographic design source: ASEANup (<a href='http://aseanup.com/asean-infographics-population-market-economy' target='_blank'>http://aseanup.com/asean-infographics-population-market-economy/</a>)">
           <h3>Asean Economy</h3>
-          <p>Infographic design source: ASEANup (<a href='http://aseanup.com/asean-infographics-population-market-economy' target='_blank'>http://aseanup.com/asean-infographics-population-market-economy/</a>)</p>
+          <p>Infographic</p>
         </div>
       </div>
     </div>
@@ -105,7 +105,11 @@
             <p>Supports increased commercial engagement between the United States and ASEAN.</p>
             <p class="point-heading">NEW programs and Activities</p>
             <ul>
-                <li>
+              <li>
+                <p>Leverages up to $15.9 million in private capital for microfinance institutions that lend to women and social enterprises to create sustainable livelihoods for women.</p>
+                <p>Coordinating Agency: USAID, in partnership with Australia Department of Foreign Affairs and Trade</p>
+              </li>
+                <!-- <li>
                   <p><strong>Women’s Livelihood Bond Program</strong> - leverages up to $24 million in private capital for microfinance institutions that lend to women and social enterprises to create sustainable livelihoods for women.</p>
                   <p>Coordinating Agency: USAID, in partnership with Australia Department of Foreign Affairs and Trade</p>
                   <p>For more information: <a href="http://www.asiaiix.com/womens-livelihood-bond" target="_blank">http://www.asiaiix.com/womens-livelihood-bond/</a></p>
@@ -117,7 +121,7 @@
                 <li>
                   <p><strong>ASEAN Agribusiness Financing</strong> - leverages up to $30 million in private capital for entrepreneurs to address ASEAN’s most pressing development challenges in agriculture and agricultural innovation.</p>
                   <p>Coordinating Agency: USAID</p>
-                </li>
+                </li> -->
             </ul>
         </div>
       </div>
@@ -132,8 +136,8 @@
             <p class="point-heading">NEW programs and Activities</p>
             <ul>
                 <li>
-                  <p><strong>USAID Clean Power Asia program in ASEAN:</strong> a 5-year, $16 million effort in ASEAN to increase the supply of grid-connected renewable energy.</p>
-                  <p>Coordinating Agencies: USAID, U.S. Dept. of State, OPIC, USTDA</p>
+                  <p><strong>USAID Clean Power Asia:</strong> a 5-year, $16 million effort in ASEAN to increase the supply of grid-connected renewable energy.</p>
+                  <p>Coordinating Agencies: USAID</p>
                 </li>
             </ul>
         </div>
@@ -198,7 +202,7 @@
               <div class="container">
                   <div class="row">
                       <div class="col-md-6 slide-caption">
-                          <h2>U.S. AMBASSADOR TO ASEAN WELCOMES THE LAUNCH OF CONNECT</h2>
+                          <h2>U.S. Ambassador to ASEAN Welcomes Connect Launch</h2>
                           <p>Last November, the United States and ASEAN elevated our relationship to a strategic partnership. Then in February, President Obama hosted ASEAN’s leaders in the United States at a historic summit in Sunnylands, California. I was fortunate to be there, and it was exhilarating to witness the commitment to a shared vision for a prosperous future.</p>
                           <a href="./resources-detail.php" class="read-more">Read More</a>
                       </div>
@@ -211,7 +215,7 @@
               <div class="container">
                   <div class="row">
                       <div class="col-md-6 slide-caption">
-                          <h2>U.S. Continues Support of Entrepreneurship and Sustainable Development through Connect</h2>
+                          <h2>U.S. Continues Support of Sustainable Development and Entrepreneurship through Connect</h2>
                           <p>Between the announcement of U.S.-ASEAN Connect at the U.S.-ASEAN Leaders’ Summit in Sunnylands, California and its official launch at the 4th U.S.-ASEAN Summit in Lao PDR, we’ve been busy.</p>
                           <a href="./resources-detail.php" class="read-more">Read More</a>
                       </div>
@@ -247,7 +251,7 @@
           <h3><a href="./resources-detail.php">Global Entrepreneurship Summit 2016</a></h3>
           <!-- Image -->
           <a href="./resources-detail.php" class="image-wrapper">
-            <div class="image" style="background-image: url(./images/connect-event-1.png)"></div>
+            <div class="image" style="background-image: url(./images/connectatges2.jpg)"></div>
           </a>
           <!-- Excerpt -->
           <div class="excerpt">
@@ -262,11 +266,11 @@
           <h3><a href="./resources-detail.php">ASEAN Online SME Academy Launched</a></h3>
           <!-- Image -->
           <a href="./resources-detail.php" class="image-wrapper">
-            <div class="image" style="background-image: url(./images/Picture1.png)"></div>
+            <div class="image" style="background-image: url(./images/Picture11.png)"></div>
           </a>
           <!-- Excerpt -->
           <div class="excerpt">
-            The ASEAN Online SME Academy launched on Tuesday, May 31st 2016 during the 1st Meeting of the ASEAN Coordinating Committee on Micro, Small, and Medium Enterprises (MSME) in Singapore.
+            <a href="http://www.asean-sme-academy.org/" target="_blank">The ASEAN Online SME Academy</a> launched on Tuesday, May 31st 2016 during the 1st Meeting of the ASEAN Coordinating Committee on Micro, Small, and Medium Enterprises (MSME) in Singapore.
           </div>
           <a href="./resources-detail.php" class="read-more">Read More</a>
         </div>
@@ -277,11 +281,11 @@
           <h3><a href="./resources-detail.php">American Innovation Roadshow Travels to ASEAN</a></h3>
           <!-- Image -->
           <a href="./resources-detail.php" class="image-wrapper">
-            <div class="image" style="background-image: url(./images/event-2.png)"></div>
+            <div class="image" style="background-image: url(./images/Picture3.png)"></div>
           </a>
           <!-- Excerpt -->
           <div class="excerpt">
-            The American Innovation Roadshow is an ongoing initiative announced by Secretary of State John Kerry during his speech on “America and the Asia-Pacific: Partners in Prosperity" in Singapore in August 2015.
+            <a href="http://www.state.gov/s/innovationroadshow/index.htm" target="_blank">The American Innovation Roadshow</a> is an ongoing initiative announced by Secretary of State John Kerry during his speech on “America and the Asia-Pacific: Partners in Prosperity" in Singapore in August 2015.
           </div>
           <a href="./resources-detail.php" class="read-more">Read More</a>
         </div>

@@ -699,16 +699,22 @@ body:not(.home) #navbar .menu li:first-child {
     overflow: hidden;
     text-overflow: ellipsis;
 }
+.connect-events .excerpt a {
+  text-decoration: underline;
+}
 .connect-events .row {
     text-align: left;
 }
 .image-wrapper {
-    padding-bottom: 100%;
+    padding-bottom: 70%;
     position: relative;
     border-radius: 10px;
     overflow: hidden;
     margin: 20px 0;
     display: block;
+}
+.connect-events [class^="col-md-"]:last-child .image-wrapper {
+    border: 1px solid #ddd;
 }
 .image-wrapper .image {
     position: absolute;
@@ -970,6 +976,10 @@ body:not(.home) #navbar .menu li:first-child {
     transform: translateY(-50%);
     z-index: 20;
 }
+.flag-info {
+    font-size: 1.4rem;
+    margin: 30px 0;
+}
 .flag-partners .flag-center a {
   position: absolute;
   top: 0;
@@ -1070,16 +1080,18 @@ body:not(.home) #navbar .menu li:first-child {
 }
 .item-btn a {
     display: block;
-    width: 50%;
+    width: 100%;
     float: left;
     color: #fff;
     text-decoration: none;
     font-size: 1.4rem;
     padding: 5px 0;
-}
-.item-btn a:last-child {
     background: #262262;
 }
+.item-btn a:hover {
+    background: #121034;
+}
+
 .resource-item .image-wrapper:hover:before {
     background: #46aab3;
 }

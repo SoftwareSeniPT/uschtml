@@ -1199,3 +1199,48 @@ body:not(.home) #navbar .menu li:first-child {
     text-transform: uppercase;
     margin: 9px 0;
 }
+
+/* Disclaimer */
+.browser-disclaimer {
+    background: #d2364a;
+    color: #fff;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 200;
+}
+
+.disclaimer {
+    padding-right: 140px;
+    position: relative;
+    font-size: 1.4rem;
+    padding: 17px 0;
+}
+
+.disclaimer a {
+    display: inline-block;
+    background: #fff;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 300;
+    text-transform: uppercase;
+    font-size: 1.3rem;
+    padding: 6px 10px;
+    position: absolute;
+    top: 50%;
+    right: 0;
+    margin-top: -15px;
+}
+
+.disclaimer a:hover {
+  background: #005284;
+  color: #fff;
+}
+
+.disclaimer p {
+    margin: 0;
+}
+
+.old-browser .browser-disclaimer {
+    display: block !important;
+}

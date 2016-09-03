@@ -1,0 +1,30 @@
+<!-- $title = ConnectEvents | GLOBAL ENTREPRENEURSHIP SUMMIT 2016 -->
+<!-- $bodyClass = connect-resources -->
+<!-- $pageHeroUrl = ./images/Hero-partner-resource.jpg -->
+
+
+<!-- @import "/includes/header.kit" -->
+
+<div id="content" class="connect-resources-page">
+  <!-- Page hero -->
+  <!-- @import "includes/page-hero.kit" -->
+  <!-- List of connect resource item -->
+  <section class="connect-resources-list">
+    <div class="container">
+      <h2>US CONTINUES SUPPORT OF SUSTAINABLE DEVELOPMENT AND ENTREPRENEURSHIP THROUGH CONNECT</h2>
+      <article class="resource-item">
+        <div class="row">
+          <div class="col-md-12">
+            <p>Participants at the 2016 Global Entrepreneurship Summit in Silicon Valley, California showed great interest in ASEAN through a June 24th session devoted to entrepreneurship and investment in ASEAN.  Panelists noted that as an economic powerhouse with a young population, Southeast Asia overflows with abundant entrepreneurship and investment opportunities. As an economic powerhouse with a predominantly young populace, Southeast Asia reigns supreme in entrepreneurship and investment opportunities. The panel, working under the Innovation pillar of Connect, highlighted investment successes and challenges in this diverse region, spanning from economic heavyweights like Indonesia to frontier markets like Myanmar.  It also focused on topics such as industries with the greatest opportunities for investors and the role of impact investing in developing the startup ecosystem and elevating local communities to the next level.
+            </p>
+          </div>
+        </div>
+      </article>
+
+      <!-- View more button -->
+      <!-- <div class="view-more-resources"><a href="#">View More Resources</a></div> -->
+    </div>
+  </section>
+</div>
+
+<!-- @import "/includes/footer.kit" -->

@@ -1,0 +1,30 @@
+<!-- $title = ConnectEvents | American Innovation Roadshow Travels to ASEAN -->
+<!-- $bodyClass = connect-resources -->
+<!-- $pageHeroUrl = ./images/Hero-partner-resource.jpg -->
+
+
+<!-- @import "/includes/header.kit" -->
+
+<div id="content" class="connect-resources-page">
+  <!-- Page hero -->
+  <!-- @import "includes/page-hero.kit" -->
+  <!-- List of connect resource item -->
+  <section class="connect-resources-list">
+    <div class="container">
+      <h2>American Innovation Roadshow Travels to ASEAN</h2>
+      <article class="resource-item">
+        <div class="row">
+          <div class="col-md-12">
+            <p>The American Innovation Roadshow is an ongoing initiative announced by Secretary of State John Kerry during his speech on “America and the Asia-Pacific: Partners in Prosperity" in Singapore in August 2015. The Roadshow effort has three objectives:  to highlight American approaches to entrepreneurship as embodied in the experiences of the delegation members; to engage with Asian entrepreneurs to strengthen their ties to America’s innovation and entrepreneurship communities; and to encourage local and national governments in Asia to develop regulatory environments that foster innovation, attract investors, and create jobs.</p>
+            <p>Since the announcement of U.S.-ASEAN Connect by President Obama in February, the U.S. has organized a series of roadshows to showcase innovation and entrepreneurship beginning with the ASEAN Economic Minister’s (AEM) U.S. Roadshow in Silicon Valley right after the Summit in Sunnylands. The AEM roadshow was quickly followed up by the American Innovation Roadshow that made stops in Indonesia, Myanmar, Philippines and Vietnam. The March Roadshow led by Ambassador David Thorne took senior government and business officials to Indonesia, Philippines, and Vietnam as one of the first activities organized under U.S.-ASEAN Connect.  In July, Department of State Assistant Secretary for Economic and Business Affairs Charles Rivkin led a delegation to Myanmar.</p>
+          </div>
+        </div>
+      </article>
+
+      <!-- View more button -->
+      <!-- <div class="view-more-resources"><a href="#">View More Resources</a></div> -->
+    </div>
+  </section>
+</div>
+
+<!-- @import "/includes/footer.kit" -->

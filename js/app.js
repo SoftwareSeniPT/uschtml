@@ -335,20 +335,7 @@ var app = {
     },
     singlePageScroll: function() {
         /* Handle the submenu anchor. Animating scrolling to element when anchor clicked */
-        jQuery("#single-page-scroll a").click(function() {
-            var target = jQuery(this).data("target"); // Get target from data-target
-            var headerHeight = jQuery("#header").outerHeight();
-
-            jQuery('html, body').animate({
-                scrollTop: $(target).offset().top - headerHeight
-            }, 500);
-
-            return false;
-        })
-    },
-        singlePageScroll: function() {
-        /* Handle the submenu anchor. Animating scrolling to element when anchor clicked */
-        jQuery("#connect-contact--team").click(function() {
+        jQuery("#single-page-scroll a, #connect-contact--team").click(function() {
             var target = jQuery(this).data("target"); // Get target from data-target
             var headerHeight = jQuery("#header").outerHeight();
 

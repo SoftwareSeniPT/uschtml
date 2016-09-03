@@ -735,7 +735,7 @@ body:not(.home) #navbar .menu li:first-child {
     font-size: 1.6rem;
     display: inline-block;
     padding: 10px 31px;
-    margin-top: 40px;
+    margin-top: 20px;
     -webkit-transition: background-color 0.4s;
     transition: background-color 0.4s;
 }

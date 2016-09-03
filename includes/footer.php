@@ -46,7 +46,7 @@
 <!-- Connect team popup -->
 <div id="connect-team-popup" style="display:none">
   <div class="image">
-    <img src="http://localhost/usasean-php/images/Connect_Team_01_usaid_logo.png" />
+    <img src="/images/Connect_Team_01_usaid_logo.png" />
   </div>
   <div class="name">USAID</div>
   <div class="desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi harum omnis nobis sequi reprehenderit doloremque maiores dicta magni, culpa aspernatur accusamus nostrum natus eos quis libero odit reiciendis, provident, consequuntur.</div>

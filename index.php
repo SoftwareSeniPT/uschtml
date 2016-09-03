@@ -10,7 +10,6 @@
     <div class="hero-wrapper">
       <img src="./images/hero-logo.png" alt="US-ASEAN Connect" class="hero-logo">
       <div class="container">
-        <h2>Feature title</h2>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus sed, odit numquam dolores, voluptatibus fugit. Illum laborum voluptates, aliquid error molestias repellendus maxime praesentium, officia ipsa incidunt eaque et aperiam.</p>
       </div>
     </div>
@@ -59,19 +58,8 @@
     <div class="col-md-4">
       <div class="info-wrapper">
         <img src="./images/01-connect-story-infographic.jpg" alt="">
-        <div class="fancybox-thumb infographic-desc" rel="fancybox-thumb" href="./images/01-connect-story-infographic.jpg" title="Infographic design source: ASEANup (<a href='http://aseanup.com/asean-infographics-population-market-economy' target='_blank'>http://aseanup.com/asean-infographics-population-market-economy/</a>)">
+        <div class="fancybox-thumb infographic-desc" rel="fancybox-thumb" href="./images/01-connect-story-infographic.jpg" title="Infographic design source: <a href='http://aseanup.com/asean-infographics-population-market-economy' target='_blank'>ASEAN<sup>up</sup></a>">
           <h3>Asean Market</h3>
-          <p>Infographic</p>
-        </div>
-      </div>
-    </div>
-
-    <!-- Infographic 3 -->
-    <div class="col-md-4">
-      <div class="info-wrapper">
-        <img src="./images/03-connect-story-infographic.jpg" alt="">
-        <div class="fancybox-thumb infographic-desc" rel="fancybox-thumb" href="./images/03-connect-story-infographic.jpg" title="Infographic source: ASEAN Matters for America by U.S.-ASEAN Business Council, the East-West Center, and ISEAS (<a target='_blank' href='https://www.usasean.org/why-asean/investment'>https://www.usasean.org/why-asean/investment</a>)">
-          <h3>US-Asia Direct Investment</h3>
           <p>Infographic</p>
         </div>
       </div>
@@ -80,8 +68,19 @@
     <!-- Infographic 2 -->
     <div class="col-md-4">
       <div class="info-wrapper">
+        <img src="./images/03-connect-story-infographic.jpg" alt="">
+      <div class="fancybox-thumb infographic-desc" rel="fancybox-thumb" href="./images/03-connect-story-infographic.jpg" title="Infographic design source: <a href='https://www.usasean.org/why-asean/investment' target='_blank'>ASEAN Matters for America</a> by <a href='https://www.usasean.org/'>U.S.-ASEAN Business Council</a>, <a href='http://www.eastwestcenter.org/'>the East-West Center</a>, and <a href='https://www.iseas.edu.sg/ '>ISEAS</a>">
+          <h3>US-Asia Direct Investment</h3>
+          <p>Infographic</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Infographic 3 -->
+    <div class="col-md-4">
+      <div class="info-wrapper">
         <img src="./images/02-connect-story-infographic.jpg" alt="">
-        <div class="fancybox-thumb infographic-desc" rel="fancybox-thumb" href="./images/02-connect-story-infographic.jpg" title="Infographic design source: ASEANup (<a href='http://aseanup.com/asean-infographics-population-market-economy' target='_blank'>http://aseanup.com/asean-infographics-population-market-economy/</a>)">
+        <div class="fancybox-thumb infographic-desc" rel="fancybox-thumb" href="./images/02-connect-story-infographic.jpg" title="Infographic design source: <a href='http://aseanup.com/asean-infographics-population-market-economy' target='_blank'>ASEAN<sup>up</sup></a>">
           <h3>Asean Economy</h3>
           <p>Infographic</p>
         </div>

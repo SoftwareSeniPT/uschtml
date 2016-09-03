@@ -346,6 +346,19 @@ var app = {
             return false;
         })
     },
+        singlePageScroll: function() {
+        /* Handle the submenu anchor. Animating scrolling to element when anchor clicked */
+        jQuery("#connect-contact--team").click(function() {
+            var target = jQuery(this).data("target"); // Get target from data-target
+            var headerHeight = jQuery("#header").outerHeight();
+
+            jQuery('html, body').animate({
+                scrollTop: $(target).offset().top - headerHeight
+            }, 500);
+
+            return false;
+        })
+    },
     backToTopAnimation: function() {
         // Back to Top animation
         var button = "#back-to-top";

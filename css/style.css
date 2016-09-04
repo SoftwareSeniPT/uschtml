@@ -454,4 +454,6 @@ body:not(.home) #navbar .menu li:first-child { display: none; }
 .old-browser .browser-disclaimer { display: block !important; }
 
 .signature { margin-bottom: 1em; max-width: 250px; }
+
+.resource-item h1, .resource-item h2, .resource-item h3, .resource-item h4, .resource-item h5, .resource-item h6 { line-height: 1.5; }
 /*# sourceMappingURL=style.css.map */

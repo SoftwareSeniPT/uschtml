@@ -1289,3 +1289,8 @@ body:not(.home) #navbar .menu li:first-child {
     margin-bottom: 1em;
     max-width: 250px;
 }
+.resource-item {
+    h1, h2, h3, h4, h5, h6 {
+        line-height: 1.5;
+    }
+}

@@ -342,7 +342,7 @@ body:not(.home) #navbar .menu li:first-child { display: none; }
 
 .flag-partners .flag-center { position: absolute; text-indent: -9999px; width: 40%; height: 40%; top: 50%; margin: 0 auto; left: 0; right: 0; overflow: hidden; -webkit-transform: translateY(-50%); transform: translateY(-50%); z-index: 20; }
 
-.flag-info { font-size: 1.4rem; margin: 30px 0; }
+.flag-info { font-size: 1.4rem; margin: 30px 0; text-align: center; }
 
 .flag-partners .flag-center a { position: absolute; top: 0; bottom: 0; left: 0; right: 0; }
 

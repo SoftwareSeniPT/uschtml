@@ -35,8 +35,6 @@ blockquote:after { color: #FFF; content: close-quote; font-size: 4em; line-heigh
 
 blockquote p { display: inline; }
 
-blockquote img { margin-bottom: 1em; }
-
 /* Links */
 a { color: #506A85; text-decoration: none; outline: none; -webkit-transition: color 0.4s; transition: color 0.4s; }
 
@@ -454,4 +452,6 @@ body:not(.home) #navbar .menu li:first-child { display: none; }
 .disclaimer p { margin: 0; }
 
 .old-browser .browser-disclaimer { display: block !important; }
+
+.signature { margin-bottom: 1em; }
 /*# sourceMappingURL=style.css.map */

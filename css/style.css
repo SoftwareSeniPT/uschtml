@@ -453,5 +453,5 @@ body:not(.home) #navbar .menu li:first-child { display: none; }
 
 .old-browser .browser-disclaimer { display: block !important; }
 
-.signature { margin-bottom: 1em; }
+.signature { margin-bottom: 1em; max-width: 250px; }
 /*# sourceMappingURL=style.css.map */

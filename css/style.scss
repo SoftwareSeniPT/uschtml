@@ -137,6 +137,9 @@ select {
     font-size: 14px;
 }
 
+// UTILITY CLASS
+.text-center {text-align: center;}
+
 /*
  * Content above the fold
  */
@@ -769,7 +772,7 @@ body:not(.home) #navbar .menu li:first-child {
     background-color: #a92436;
     color: #fff;
 }
-.connect-events-view-more {
+.connect-events-view-more, .back-btn {
     display: block;
     background: #00436d;
     font-family: 'Oswald', sans-serif;
@@ -1294,3 +1297,12 @@ body:not(.home) #navbar .menu li:first-child {
         line-height: 1.5;
     }
 }
+
+.connect-resources .back-btn {
+    background-color: #00395c;
+    &:hover {
+        background-color: #032940;
+        color: #FFF;
+    }
+}
+

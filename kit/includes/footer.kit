@@ -18,15 +18,15 @@
         </div>
         <div class="col-md-9">
           <h4>Leave a Message</h4>
-          <form action="#">
+          <form action="https://formspree.io/atmawarin@gmail.com" method="POST">
             <div class="row">
               <div class="col-md-6">
-                <input type="text" placeholder="Name" />
-                <input type="text" placeholder="Email" />
+                <input type="text" name="name" placeholder="Name">
+                <input type="text" name="email" placeholder="Email" />
                 <input type="text" placeholder="Subject" />
               </div>
               <div class="col-md-6">
-                <textarea name="name" rows="8" cols="40" placeholder="Message"></textarea>
+                <textarea name="name" rows="8" cols="40" name="message" placeholder="Message"></textarea>
               </div>
             </div>
             <button type="submit" name="button">Send</button>

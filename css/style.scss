@@ -868,7 +868,7 @@ body:not(.home) #navbar .menu li:first-child {
 .footer-section {
     margin-bottom: 20px;
 }
-#footer input[type=text], #footer textarea {
+#footer input[type=text], #footer input[type=email], #footer textarea,  {
     background: #005284;
     font-family: 'Oswald', sans-serif;
     height: 50px;

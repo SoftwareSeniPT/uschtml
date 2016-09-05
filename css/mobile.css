@@ -2,6 +2,14 @@
   .homepage .hero {
     min-height: 50vh; } }
 @media (max-width: 769px) {
+  #navbar .menu > li:first-child:hover .sub-menu {
+    opacity: 0;
+    visibility: hidden; }
+
+  #navbar .menu > li:first-child.opened .sub-menu {
+    opacity: 1;
+    visibility: visible; }
+
   .connect-events h3 {
     font-size: 2rem; }
 

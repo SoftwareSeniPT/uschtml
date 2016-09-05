@@ -18,6 +18,39 @@ var app = {
         app.sliceSlideBackground();
         app.objectFitPolyfill();
         app.checkIfOldIE();
+        app.submenuToggle();
+    },
+    submenuToggle: function() {
+        function checkIfOpen(elm, notOpen, open) {
+            if (!jQuery(elm).hasClass("opened")) {
+                jQuery(elm).addClass("opened");
+                notOpen();
+            } else {
+                jQuery(elm).removeClass("opened");
+                open();
+            }
+        }
+
+        jQuery("#navbar .menu > li:first-child").click(function() {
+            if (!app.detectMobileCore()) {
+                return false;
+            }
+
+            var $self = this;
+            checkIfOpen($self, function() {
+                jQuery($self).addClass("opened");
+            }, function() {
+                jQuery($self).removeClass("opened");
+            })
+        });
+
+        // Close submenu when click outside the submenuToggle
+        jQuery(document).on('click', function(e) {
+            var elm = "#navbar .menu > li:first-child";
+            if (jQuery(e.target).closest(elm).length === 0) {
+                app.closeSubmenu();
+            }
+        });
     },
     detectIE: function() {
         var undef, v = 3,
@@ -42,8 +75,115 @@ var app = {
         jQuery(".connect-team .fancybox-thumb img").wrap("<div class=\"image\"></div>");
     },
     objectFitPolyfill: function() {
-      var objectFitImages=function(){"use strict";var e="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==";var t=/(object-fit|object-position)\s*:\s*([^;$"'\s]+)/g;var i="object-fit"in document.createElement("i").style;var n=false;function r(e){var i=getComputedStyle(e).fontFamily;var n;var r={};while((n=t.exec(i))!==null){r[n[1]]=n[2]}return r}function o(t,i){var n=r(t);if(!n["object-fit"]||n["object-fit"]==="fill"){return}i=i||t.currentSrc||t.src;if(t.srcset){t.srcset=""}if(!t[e]){t.src=e;a(t)}t[e]=t[e]||{s:i};t.style.backgroundImage="url("+i+")";t.style.backgroundPosition=n["object-position"]||"center";t.style.backgroundRepeat="no-repeat";if(n["object-fit"].indexOf("scale-down")<0){t.style.backgroundSize=n["object-fit"].replace("none","auto")}else{if(!t[e].i){t[e].i=new Image;t[e].i.src=i}(function o(){if(t[e].i.naturalWidth){if(t[e].i.naturalWidth>t.width||t[e].i.naturalHeight>t.height){t.style.backgroundSize="contain"}else{t.style.backgroundSize="auto"}return}setTimeout(o,100)})()}}function a(t){var i={get:function(){return t[e].s},set:function(i){delete t[e].i;return o(t,i)}};Object.defineProperty(t,"src",i);Object.defineProperty(t,"currentSrc",{get:i.get})}function c(e){window.addEventListener("resize",f.bind(null,e))}function u(e){if(e.target.tagName==="IMG"){o(e.target)}}function f(e,t){if(i){return false}var r=!n&&!e;t=t||{};e=e||"img";if(typeof e==="string"){e=document.querySelectorAll("img")}else if(!e.length){e=[e]}for(var a=0;a<e.length;a++){o(e[a])}if(r){document.body.addEventListener("load",u,true);n=true;e="img"}if(t.watchMQ){c(e)}}return f}();
-      objectFitImages();
+        var objectFitImages = function() {
+            "use strict";
+            var e = "data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==";
+            var t = /(object-fit|object-position)\s*:\s*([^;$"'\s]+)/g;
+            var i = "object-fit" in document.createElement("i").style;
+            var n = false;
+
+            function r(e) {
+                var i = getComputedStyle(e).fontFamily;
+                var n;
+                var r = {};
+                while ((n = t.exec(i)) !== null) {
+                    r[n[1]] = n[2]
+                }
+                return r
+            }
+
+            function o(t, i) {
+                var n = r(t);
+                if (!n["object-fit"] || n["object-fit"] === "fill") {
+                    return
+                }
+                i = i || t.currentSrc || t.src;
+                if (t.srcset) {
+                    t.srcset = ""
+                }
+                if (!t[e]) {
+                    t.src = e;
+                    a(t)
+                }
+                t[e] = t[e] || {
+                    s: i
+                };
+                t.style.backgroundImage = "url(" + i + ")";
+                t.style.backgroundPosition = n["object-position"] || "center";
+                t.style.backgroundRepeat = "no-repeat";
+                if (n["object-fit"].indexOf("scale-down") < 0) {
+                    t.style.backgroundSize = n["object-fit"].replace("none", "auto")
+                } else {
+                    if (!t[e].i) {
+                        t[e].i = new Image;
+                        t[e].i.src = i
+                    }(function o() {
+                        if (t[e].i.naturalWidth) {
+                            if (t[e].i.naturalWidth > t.width || t[e].i.naturalHeight > t.height) {
+                                t.style.backgroundSize = "contain"
+                            } else {
+                                t.style.backgroundSize = "auto"
+                            }
+                            return
+                        }
+                        setTimeout(o, 100)
+                    })()
+                }
+            }
+
+            function a(t) {
+                var i = {
+                    get: function() {
+                        return t[e].s
+                    },
+                    set: function(i) {
+                        delete t[e].i;
+                        return o(t, i)
+                    }
+                };
+                Object.defineProperty(t, "src", i);
+                Object.defineProperty(t, "currentSrc", {
+                    get: i.get
+                })
+            }
+
+            function c(e) {
+                window.addEventListener("resize", f.bind(null, e))
+            }
+
+            function u(e) {
+                if (e.target.tagName === "IMG") {
+                    o(e.target)
+                }
+            }
+
+            function f(e, t) {
+                if (i) {
+                    return false
+                }
+                var r = !n && !e;
+                t = t || {};
+                e = e || "img";
+                if (typeof e === "string") {
+                    e = document.querySelectorAll("img")
+                } else if (!e.length) {
+                    e = [e]
+                }
+                for (var a = 0; a < e.length; a++) {
+                    o(e[a])
+                }
+                if (r) {
+                    document.body.addEventListener("load", u, true);
+                    n = true;
+                    e = "img"
+                }
+                if (t.watchMQ) {
+                    c(e)
+                }
+            }
+            return f
+        }();
+        objectFitImages();
     },
     sliceSlideBackground: function() {
         var slide = jQuery(".home .slideshow .slide");
@@ -143,12 +283,17 @@ var app = {
             jQuery("body").addClass("document-ready");
         }, 100);
     },
-    detectMobile: function() {
-        /* Detect if on mobile and add class to body */
+    detectMobileCore: function() {
         var isMobile = window.matchMedia("only screen and (max-width: 769px)");
         var isMobileLandscape = window.matchMedia("only screen and (max-width: 1024px) and (orientation: landscape)");
 
         if (isMobile.matches || isMobileLandscape.matches) {
+            return true;
+        }
+        return false;
+    },
+    detectMobile: function() {
+        if (app.detectMobileCore()) {
             jQuery("body").addClass("is-on-mobile")
         } else {
             jQuery("body").removeClass("is-on-mobile")
@@ -247,11 +392,17 @@ var app = {
             }
         });
     },
+    closeSubmenu: function() {
+        jQuery("#navbar .menu > li:first-child").removeClass("opened");
+    },
     singlePageScroll: function() {
         /* Handle the submenu anchor. Animating scrolling to element when anchor clicked */
         jQuery(".go-to-link, #connect-contact--team").click(function() {
             var target = jQuery(this).data("target"); // Get target from data-target
             var headerHeight = jQuery("#header").outerHeight();
+
+            // Close if submenu is opened
+            app.closeSubmenu();
 
             jQuery('html, body').animate({
                 scrollTop: $(target).offset().top - headerHeight

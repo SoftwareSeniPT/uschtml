@@ -1,8 +1,9 @@
-@media (max-width: 1024) {}
-@media (max-width: 769px) {
+@media (max-width: 769px) and (orientation: portrait) {
     .homepage .hero {
         min-height: 50vh;
     }
+}
+@media (max-width: 769px) {
     .connect-events h3 {
         font-size: 2rem;
     }
@@ -10,43 +11,55 @@
         padding-left: 30px;
         padding-right: 30px;
     }
-    .connect-highlight .slide:before {
-        width: 100%;
-        background-color: rgba(0, 0, 0, 0.32);
+    .connect-highlight {
+        .slide:before {
+            width: 100%;
+            background-color: rgba(0, 0, 0, 0.32);
+        }
+        .slide-caption {
+            color: #fff;
+            padding-left: 110px;
+            padding-right: 110px;
+            width: 100%;
+        }
     }
-    .connect-highlight .slide-caption {
+    .slide-caption h2 {
         color: #fff;
-        padding-left: 110px;
-        padding-right: 110px;
-        width: 100%;
+        font-size: 2.2rem;
+        margin-bottom: 10px;
     }
-    .col-md-6.slide-caption h2 {
-        color: #fff;
+    .connect-highlight {
+        .slide-bg {
+            width: 100%;
+        }
+        .slideshow .cycle-pager {
+            right: 0;
+        }
+        .slide-caption .read-more {
+            margin-top: 10px;
+        }
     }
-    .connect-highlight .slide-bg {
-      width: 100%;
-  }
-  .connect-highlight .slideshow .cycle-pager {
-    right: 0;
-}
-
-.hero-wrapper blockquote {
-    line-height: 1.25;
-    margin: 0;
-    padding: 0;
-    &:before, &:after {
-        font-size: 1em;
-        margin: 0;
-        vertical-align: .2em;
+    .hero-wrapper blockquote {
+        line-height: 1.25;
+        padding: 0 10px;
+        // font-size: 1.6rem;
+        &:after,
+        &:before {
+            font-size: 1em;
+            margin: 0;
+            vertical-align: 0.2em;
+        }
     }
-}
-.signature {
-    margin-bottom: 0;
-    max-width: 120px;
-}
-.hide-on-mobile {
-    display: none !important;
-}
+    .signature {
+        margin-bottom: 0;
+        max-width: 120px;
+    }
+    .hide-on-mobile {
+        display: none !important;
+    }
+    .hero .hero-wrapper .container {
+        font-size: 1.6rem;
+    }
 }
 @media (max-width: 668px) {
     [class^="col-md-"] {
@@ -67,22 +80,21 @@
         min-height: 0;
         margin: 30px 0;
     }
-
     #footer [class^="col-md-"] {
         margin: 0;
     }
-    .infographic .infographic-desc {
-        opacity: 1;
-    }
     .infographic {
+        .infographic-desc {
+            opacity: 1;
+        }
         padding: 0 30px;
     }
     .connect-approach-item {
         max-width: 480px;
         margin: 0 auto;
-    }
-    .connect-approach-item> div:first-child {
-        margin-bottom: 20px;
+        > div:first-child {
+            margin-bottom: 20px;
+        }
     }
     .connect-highlight .arrow {
         font-size: 3rem;
@@ -90,9 +102,9 @@
         height: 45px;
         margin-top: -22px;
         left: 0;
-    }
-    .connect-highlight .arrow.right {
-        right: 0;
+        &.right {
+            right: 0;
+        }
     }
     .connect-events [class^="col-md-"] {
         margin-bottom: 30px;
@@ -105,12 +117,12 @@
     }
     .connect-team [class^="col-md-"] {
         width: 50%;
-    }
-    .connect-team [class^="col-md-"]:nth-child(3n+1) {
-        clear: none;
-    }
-    .connect-team [class^="col-md-"]:nth-child(2n+1) {
-        clear: left;
+        &:nth-child(3n+1) {
+            clear: none;
+        }
+        &:nth-child(2n+1) {
+            clear: left;
+        }
     }
     .connect-events {
         max-width: 480px;
@@ -123,15 +135,20 @@
         margin-top: 30px;
     }
     .connect-highlight .slide-caption {
-      padding-left: 70px;
-      padding-right: 70px;
-  }
+        padding-left: 70px;
+        padding-right: 70px;
+    }
 }
 @media (max-width: 480px) {
-    #navbar .menu> li {
+  .hero-wrapper blockquote {
+        margin-bottom: 10px;
+  }
+    #navbar .menu > li:first-child {
+        display: none;
+    }
+    #navbar .menu > li {
         margin: 0 5px;
     }
-
     h2 {
         font-size: 2.6rem;
         margin-bottom: 20px;
@@ -148,17 +165,17 @@
         font-size: 1.4rem;
     }
     .hero .hero-wrapper .container {
-        padding-top: 15px;
+        padding-top: 15px !important;
         padding-left: 120px !important;
         font-size: 1.2rem;
     }
     .homepage .hero {
-        min-height: 270px;
-    }
-    .infographic h3 {
-        font-size: 1.5rem;
+        min-height: 290px;
     }
     .infographic {
+        h3 {
+            font-size: 1.5rem;
+        }
         padding: 0 15px;
     }
     .connect-approach {
@@ -175,9 +192,9 @@
     .page-hero-wrapper {
         min-height: 145px;
     }
-    .connect-partners-detail, .connect-partner-partner {
+    .connect-partner-partner,
+    .connect-partners-detail {
         margin-top: 20px;
         margin-bottom: 20px;
     }
-
 }

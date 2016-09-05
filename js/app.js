@@ -154,6 +154,10 @@ var app = {
         app.heroCaptionPadding();
         app.detectMobile();
     },
+    onOrientationChange: function() {
+        app.heroCaptionPadding();
+        app.detectMobile();
+    },
     connectTeamPopup: function() {
         /* This will show change the popup text on connect team */
         jQuery(".connect-team .fancybox-thumb").click(function() {
@@ -233,9 +237,10 @@ var app = {
     },
     detectMobile: function() {
         /* Detect if on mobile and add class to body */
-        var isMobile = window.matchMedia("only screen and (max-width: 760px)");
+        var isMobile = window.matchMedia("only screen and (max-width: 769px)");
+        var isMobileLandscape = window.matchMedia("only screen and (max-width: 1024px) and (orientation: landscape)");
 
-        if (isMobile.matches) {
+        if (isMobile.matches || isMobileLandscape.matches) {
             jQuery("body").addClass("is-on-mobile")
         } else {
             jQuery("body").removeClass("is-on-mobile")
@@ -316,7 +321,8 @@ var app = {
             fx: "scrollHorz",
             next: "> .right",
             prev: "> .left",
-            timeout: 6000
+            timeout: 10000,
+            pauseOnHover: true
         });
     },
     fancyBoxInit: function() {
@@ -335,7 +341,7 @@ var app = {
     },
     singlePageScroll: function() {
         /* Handle the submenu anchor. Animating scrolling to element when anchor clicked */
-        jQuery("#single-page-scroll a, #connect-contact--team").click(function() {
+        jQuery(".go-to-link, #connect-contact--team").click(function() {
             var target = jQuery(this).data("target"); // Get target from data-target
             var headerHeight = jQuery("#header").outerHeight();
 
@@ -374,4 +380,7 @@ jQuery(document).ready(function() {
     jQuery(window).resize(function() {
         app.onResize();
     });
+    window.addEventListener("orientationchange", function() {
+        app.onOrientationChange();
+    }, false);
 });

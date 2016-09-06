@@ -13,10 +13,29 @@
     <link rel="shortcut icon" href="./images/favicon-16x16.png" />
     <link rel="icon" type="image/png" href="./images/favicon-32x32.png" sizes="32x32" />
     <link rel="icon" type="image/png" href="./images/favicon-16x16.png" sizes="16x16" />
-
+    <script type="text/javascript">
+      var isOnOldIE = false;
+    </script>
     <!--Make Microsoft Internet Explorer behave like a standards-compliant browser. http://code.google.com/p/ie7-js/-->
-    <!--[if lt IE 9]>
+    <!--[if IE 9]>
         <script src="http://ie7-js.googlecode.com/svn/version/2.1(beta4)/IE9.js"></script>
+        <script type="text/javascript">
+          isOnOldIE = true;
+        </script>
+    <![endif]-->
+
+    <!--[if IE 8]>
+      <script type="text/javascript">
+        // this is only executed for IE 8
+        isOnOldIE = true;
+      </script>
+    <![endif]-->
+
+    <!--[if IE 7]>
+      <script type="text/javascript">
+        // this is only executed for IE 7
+        isOnOldIE = true;
+      </script>
     <![endif]-->
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/mobile.css">

@@ -819,7 +819,7 @@ body:not(.home) #navbar .menu li:first-child {
 }
 
 .image-wrapper {
-  padding-bottom: 70%;
+  padding-bottom: 66%;
   position: relative;
   border-radius: 10px;
   overflow: hidden;

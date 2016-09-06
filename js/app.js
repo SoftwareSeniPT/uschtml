@@ -314,7 +314,8 @@ var app = {
         bg = bg.replace('url(', '').replace(')', '').replace(/\"/gi, "");
         // Init jQuery pralax plugin
         paralaxElm.parallax({
-            imageSrc: bg
+            imageSrc: bg,
+            positionY: "top"
         });
         // Add class to body to tell paralax is ready
         jQuery("body").addClass("paralax-active");

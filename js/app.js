@@ -17,11 +17,8 @@ var app = {
         app.wrapConnectTeam();
         app.sliceSlideBackground();
         app.objectFitPolyfill();
-        // app.checkIfOldIE();
+        app.checkIfOldIE();
         app.submenuToggle();
-        app.browserDetect.init(function(info){
-          console.log("Info", info);
-        });
     },
     submenuToggle: function() {
         function checkIfOpen(elm, notOpen, open) {
@@ -58,9 +55,11 @@ var app = {
         });
     },
     checkIfOldIE: function() {
-        if (isOnOldIE) {
+        app.browserDetect.init(function(info){
+          if (info.browser === "Explorer" && info.version < 10) {
             jQuery("body").addClass("old-browser");
-        }
+          }
+        });
         jQuery(".browser-disclaimer a").click(function() {
             jQuery(".browser-disclaimer").hide();
         });

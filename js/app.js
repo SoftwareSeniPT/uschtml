@@ -278,6 +278,10 @@ var app = {
         }, 100);
     },
     detectMobileCore: function() {
+        if (window.matchMedia === undefined) {
+          return;
+        }
+
         var isMobile = window.matchMedia("only screen and (max-width: 769px)");
         var isMobileLandscape = window.matchMedia("only screen and (max-width: 1024px) and (orientation: landscape)");
 

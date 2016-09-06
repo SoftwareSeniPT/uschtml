@@ -477,13 +477,14 @@ var app = {
         ]
     }
 }
-
 jQuery(document).ready(function() {
     app.init();
     jQuery(window).resize(function() {
         app.onResize();
     });
-    window.addEventListener("orientationchange", function() {
-        app.onOrientationChange();
-    }, false);
+    if (window.addEventListener !== undefined) {
+        window.addEventListener("orientationchange", function() {
+            app.onOrientationChange();
+        }, false);
+    }
 });

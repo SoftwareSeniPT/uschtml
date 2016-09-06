@@ -41,7 +41,9 @@ var app = {
                 jQuery($self).addClass("opened");
             }, function() {
                 jQuery($self).removeClass("opened");
-            })
+            });
+
+            return false;
         });
 
         // Close submenu when click outside the submenuToggle

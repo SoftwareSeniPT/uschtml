@@ -5,12 +5,12 @@
 }
 @media (max-width: 769px) {
     #navbar .menu > li:first-child:hover .sub-menu {
-      opacity: 0;
-      visibility: hidden;
+        opacity: 0;
+        visibility: hidden;
     }
     #navbar .menu > li:first-child.opened .sub-menu {
-      opacity: 1;
-      visibility: visible;
+        opacity: 1;
+        visibility: visible;
     }
     .connect-events h3 {
         font-size: 2rem;
@@ -148,10 +148,10 @@
     }
 }
 @media (max-width: 480px) {
-  .hero-wrapper blockquote {
+    .hero-wrapper blockquote {
         margin-bottom: 10px;
-  }
-    #navbar .menu > li:first-child {
+    }
+    #navbar .menu > li:first-child i + span {
         display: none;
     }
     #navbar .menu > li {

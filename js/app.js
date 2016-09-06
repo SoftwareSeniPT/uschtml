@@ -70,7 +70,7 @@ var app = {
         jQuery(".connect-team .fancybox-thumb img").wrap("<div class=\"image\"></div>");
     },
     objectFitPolyfill: function() {
-        if (getComputedStyle === undefined) {
+        if (window.getComputedStyle === undefined) {
           return;
         }
 

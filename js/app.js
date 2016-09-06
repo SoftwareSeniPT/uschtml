@@ -17,8 +17,14 @@ var app = {
         app.wrapConnectTeam();
         app.sliceSlideBackground();
         app.objectFitPolyfill();
-        app.checkIfOldIE();
+        // app.checkIfOldIE();
         app.submenuToggle();
+
+
+        // Check IE
+        setTimeout(function () {
+          console.log(jQuery("html").attr("class"));
+        }, 1000);
     },
     submenuToggle: function() {
         function checkIfOpen(elm, notOpen, open) {

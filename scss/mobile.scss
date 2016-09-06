@@ -206,3 +206,11 @@
         margin-bottom: 20px;
     }
 }
+@media (max-width: 320px) {
+    #header {
+        font-size: 1.2rem;
+    }
+    #navbar .menu > li {
+        margin: 0 2px;
+    }
+}

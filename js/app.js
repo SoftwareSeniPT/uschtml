@@ -60,7 +60,7 @@ var app = {
             jQuery(".browser-disclaimer").show();
           }
         });
-        
+
         jQuery(".browser-disclaimer a").click(function() {
             jQuery(".browser-disclaimer").hide();
             return false;
@@ -70,6 +70,10 @@ var app = {
         jQuery(".connect-team .fancybox-thumb img").wrap("<div class=\"image\"></div>");
     },
     objectFitPolyfill: function() {
+        if (getComputedStyle === undefined) {
+          return;
+        }
+
         var objectFitImages = function() {
             "use strict";
             var e = "data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==";

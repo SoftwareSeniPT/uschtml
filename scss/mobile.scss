@@ -151,9 +151,6 @@
     .hero-wrapper blockquote {
         margin-bottom: 10px;
     }
-    #navbar .menu > li:first-child i + span {
-        display: none;
-    }
     #navbar .menu > li {
         margin: 0 5px;
     }
@@ -207,6 +204,9 @@
     }
 }
 @media (max-width: 320px) {
+    #navbar .menu > li:first-child i + span {
+        display: none;
+    }
     #header {
         font-size: 1.2rem;
     }

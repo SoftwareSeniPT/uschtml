@@ -57,11 +57,13 @@ var app = {
     checkIfOldIE: function() {
         app.browserDetect.init(function(info){
           if (info.browser === "Explorer" && info.version < 10) {
-            jQuery("body").addClass("old-browser");
+            jQuery(".browser-disclaimer").show();
           }
         });
+        
         jQuery(".browser-disclaimer a").click(function() {
             jQuery(".browser-disclaimer").hide();
+            return false;
         });
     },
     wrapConnectTeam: function() {

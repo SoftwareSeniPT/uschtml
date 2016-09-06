@@ -1431,10 +1431,6 @@ body:not(.home) #navbar .menu li:first-child {
   margin: 0;
 }
 
-.old-browser .browser-disclaimer {
-  display: block !important;
-}
-
 .signature {
   margin-bottom: 1em;
   max-width: 250px;

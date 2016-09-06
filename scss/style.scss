@@ -290,7 +290,11 @@ select {
                 left: 2.6%;
                 i {
                     font-size: 1.8rem;
-                    vertical-align: text-bottom;
+                    vertical-align: middle;
+                }
+                i + span {
+                  display: inline-block;
+                  vertical-align: middle;
                 }
             }
             display: inline-block;

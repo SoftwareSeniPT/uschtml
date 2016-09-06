@@ -334,7 +334,11 @@ select {
 }
 #navbar .menu > li:first-child i {
   font-size: 1.8rem;
-  vertical-align: text-bottom;
+  vertical-align: middle;
+}
+#navbar .menu > li:first-child i + span {
+  display: inline-block;
+  vertical-align: middle;
 }
 #navbar li .sub-menu li {
   float: none;

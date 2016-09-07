@@ -1143,10 +1143,10 @@ body:not(.home) #navbar .menu li:first-child {
   overflow: hidden;
 }
 .flag-partners .flag-wrapper.flag2 {
-  -webkit-transform: rotate(44deg);
-          transform: rotate(44deg);
-  height: 58%;
-  top: -8%;
+  -webkit-transform: rotate(48deg);
+          transform: rotate(48deg);
+  height: 54%;
+  top: -4%;
 }
 .flag-partners .flag-wrapper.flag3 {
   -webkit-transform: rotate(74deg);
@@ -1405,10 +1405,10 @@ body:not(.home) #navbar .menu li:first-child {
 }
 
 .disclaimer {
-  padding-right: 140px;
   position: relative;
   font-size: 1.4rem;
   padding: 17px 0;
+  padding-right: 140px;
 }
 .disclaimer a {
   display: inline-block;

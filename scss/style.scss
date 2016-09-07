@@ -293,8 +293,8 @@ select {
                     vertical-align: middle;
                 }
                 i + span {
-                  display: inline-block;
-                  vertical-align: middle;
+                    display: inline-block;
+                    vertical-align: middle;
                 }
             }
             display: inline-block;
@@ -1089,9 +1089,9 @@ body:not(.home) #navbar .menu li:first-child {
         overflow: hidden;
         &.flag1 {}
         &.flag2 {
-            transform: rotate(44deg);
-            height: 58%;
-            top: -8%;
+            transform: rotate(48deg);
+            height: 54%;
+            top: -4%;
         }
         &.flag3 {
             transform: rotate(74deg);
@@ -1328,10 +1328,10 @@ body:not(.home) #navbar .menu li:first-child {
     z-index: 200;
 }
 .disclaimer {
-    padding-right: 140px;
     position: relative;
     font-size: 1.4rem;
     padding: 17px 0;
+    padding-right: 140px;
     a {
         display: inline-block;
         background: #fff;

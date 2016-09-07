@@ -56,7 +56,7 @@ var app = {
     },
     checkIfOldIE: function() {
         app.browserDetect.init(function(info){
-          if (info.browser === "Explorer" && info.version < 10) {
+          if (info.browser === "Explorer") {
             jQuery(".browser-disclaimer").show();
           }
         });

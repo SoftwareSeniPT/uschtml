@@ -1044,20 +1044,30 @@ body:not(.home) #navbar .menu li:first-child {
         padding-left: 20px;
         padding-right: 20px;
     }
+    a img {
+      transition: transform 0.4s;
+    }
+    a:hover img {
+      transform: scale(1.1);
+    }
+}
+.flag-partners-wrapper {
+  padding: 25px;
+  overflow: hidden;
 }
 .flag-partners {
     display: inline-block;
     position: relative;
+    margin-bottom: 80px;
     .flag-center {
         position: absolute;
         text-indent: -9999px;
-        width: 40%;
-        height: 40%;
+        width: 50%;
+        height: 50%;
         top: 50%;
         margin: 0 auto;
         left: 0;
         right: 0;
-        overflow: hidden;
         transform: translateY(-50%);
         z-index: 20;
     }
@@ -1066,18 +1076,30 @@ body:not(.home) #navbar .menu li:first-child {
     font-size: 1.4rem;
     margin: 30px 0;
     text-align: center;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
 }
 .flag-partners {
+    padding-bottom: 100%;
+    display: block;
     .flag-center a {
         position: absolute;
         top: 0;
         bottom: 0;
         left: 0;
         right: 0;
+        background-size: cover;
+        background-repeat: no-repeat;
+        transition: transform 0.4s;
+    }
+    .flag-center a:hover {
+      transform: scale(1.1)
     }
     .flag-wrapper {
         position: absolute;
-        text-indent: -9999px;
+        // text-indent: -9999px;
         width: 20%;
         height: 50%;
         top: 0;
@@ -1086,54 +1108,86 @@ body:not(.home) #navbar .menu li:first-child {
         right: 0;
         transform: rotate(720deg);
         transform-origin: bottom;
-        overflow: hidden;
-        &.flag1 {}
+        a img {
+          transition: transform 0.4s;
+        }
+        a:hover {
+          img {
+            transform: scale(1.1)
+          }
+        }
         &.flag2 {
-            transform: rotate(48deg);
-            height: 54%;
-            top: -4%;
+              transform: rotate(41deg);
+              height: 59%;
+              top: -5%;
+            a {
+                transform: rotate(-41deg);
+            }
         }
         &.flag3 {
             transform: rotate(74deg);
             height: 53%;
             top: -3%;
+            a {
+                transform: rotate(-74deg);
+            }
         }
         &.flag4 {
             transform: rotate(104deg);
             height: 52%;
             top: -2%;
+            a {
+                transform: rotate(-104deg);
+            }
         }
         &.flag5 {
             transform: rotate(136deg);
             height: 57%;
             top: -7%;
+            a {
+                transform: rotate(-136deg);
+            }
         }
         &.flag6 {
             transform: rotate(180deg);
+            a {
+                transform: rotate(-180deg);
+            }
         }
         &.flag7 {
             transform: rotate(225deg);
             height: 57%;
             top: -7%;
+            a {
+                transform: rotate(-225deg);
+            }
         }
         &.flag8 {
             transform: rotate(255deg);
             height: 53%;
             top: -3%;
+            a {
+                transform: rotate(-255deg);
+            }
         }
         &.flag9 {
             transform: rotate(285deg);
             height: 53%;
             top: -3%;
+            a {
+                transform: rotate(-285deg);
+            }
         }
         &.flag10 {
-            transform: rotate(317deg);
-            height: 58%;
-            top: -8%;
+              transform: rotate(314deg);
+              height: 58%;
+              top: -8%;
+            a {
+                transform: rotate(-314deg)
+            }
         }
         a {
             position: absolute;
-            padding-bottom: 70%;
             top: 0;
             left: 0;
             right: 0;
@@ -1330,8 +1384,7 @@ body:not(.home) #navbar .menu li:first-child {
 .disclaimer {
     position: relative;
     font-size: 1.4rem;
-    padding: 17px 0;
-    padding-right: 140px;
+    padding: 17px 140px 17px 0;
     a {
         display: inline-block;
         background: #fff;

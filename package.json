@@ -1,0 +1,25 @@
+{
+  "name": "usasean-php",
+  "version": "1.0.0",
+  "description": "This page parsed from a PHP into HTML to make it easier to build the RAW HTML file. These are list of folder & file that you can ignore when copy it to the server: * \"kitæ folder * \"includes\" folder * any \"*.php\" file.",
+  "main": "js/app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SoftwareSeniPT/uschtml.git"
+  },
+  "author": "Rudi Wahyudi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SoftwareSeniPT/uschtml/issues"
+  },
+  "homepage": "https://github.com/SoftwareSeniPT/uschtml#readme",
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-contrib-cssmin": "^1.0.2",
+    "grunt-contrib-uglify": "^2.0.0",
+    "grunt-contrib-watch": "^1.0.0"
+  }
+}

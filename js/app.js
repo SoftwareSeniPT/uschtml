@@ -73,7 +73,7 @@ var app = {
         if (window.getComputedStyle === undefined || window.addEventListener === undefined) {
           return;
         }
-
+       
         var objectFitImages = function() {
             "use strict";
             var e = "data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==";

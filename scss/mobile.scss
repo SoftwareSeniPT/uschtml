@@ -68,13 +68,15 @@
     .hero .hero-wrapper .container {
         font-size: 1.6rem;
     }
-    .homepage .us-asean-tagline img {
-        max-width: 60px;
-        margin-left: 17px;
+    .homepage .us-asean-logo {
+        right: 30px;
     }
-
     .homepage .us-asean-tagline {
-        font-size: 17px;
+      font-size: 27px;
+      padding: 0 30px;
+      padding-right: 40px;
+      bottom: 170px;
+      text-align: right;
     }
 }
 @media (max-width: 668px) {
@@ -89,7 +91,7 @@
 
     .homepage .us-asean-tagline {
       left: 228px;
-      right: 30px;
+      right: 0;
       font-size: 21px;
     }
 
@@ -173,9 +175,14 @@
     .hero-wrapper blockquote {
         margin-bottom: 10px;
     }
-    .homepage .us-asean-tagline {
-        left: 116px;
+    .homepage .us-asean-logo img {
+        max-width: 60px;
     }
+
+    .homepage .us-asean-tagline {
+        bottom: 100px;
+    }
+    
     #navbar .menu > li {
         margin: 0 5px;
     }

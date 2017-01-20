@@ -73,7 +73,7 @@ var app = {
         if (window.getComputedStyle === undefined || window.addEventListener === undefined) {
           return;
         }
-       
+
         var objectFitImages = function() {
             "use strict";
             var e = "data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==";
@@ -336,18 +336,26 @@ var app = {
         var containerLeftOffset = $container.offset().left;
         var factor = 50;
 
-        if (containerLeftOffset < imgWidth) {
-            var leftPadding = (imgWidth - containerLeftOffset) + factor;
+        $container.css({
+            paddingLeft: imgWidth
+        });
 
-            // Apply left padding
-            $container.css({
-                paddingLeft: leftPadding
-            });
-        } else {
-            $container.css({
-                paddingLeft: factor
-            });
-        }
+        jQuery('.us-asean-tagline').css({
+          left: imgWidth
+        });
+
+        // if (containerLeftOffset < imgWidth) {
+        //     var leftPadding = (imgWidth - containerLeftOffset) + factor;
+        //
+        //     // Apply left padding
+        //     $container.css({
+        //         paddingLeft: leftPadding
+        //     });
+        // } else {
+        //     $container.css({
+        //         paddingLeft: factor
+        //     });
+        // }
     },
     connectApproachPointToggle: function() {
         /*

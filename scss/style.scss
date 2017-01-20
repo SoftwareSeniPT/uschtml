@@ -222,6 +222,7 @@ select {
 #content:not(.homepage) {
     padding-top: 60px;
 }
+
 /* Absolute centering */
 .connect-highlight .slide .slide-wrapper,
 .connect-story-grid,
@@ -348,6 +349,24 @@ body:not(.home) #navbar .menu li:first-child {
         background-size: cover;
         padding-top: 60px;
         background-position: center center;
+
+        .container {
+          max-width: none;
+          position: static !important;
+        }
+    }
+    .us-asean-tagline {
+      font-size: 25px;
+      font-style: italic;
+      text-align: right;
+      position: absolute;
+      right: 60px;
+      bottom: 40px;
+      img {
+          max-width: 100px;
+          vertical-align: middle;
+          margin-left: 50px;
+        }
     }
 }
 /* Hero image */

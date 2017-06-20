@@ -15,12 +15,6 @@
 		"oAP": "\/.gitignore",
 		"oF": 0
 		},
-	"\/article-1.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/article-1.html",
-		"oF": 0
-		},
 	"\/article-2.html": {
 		"ft": 8192,
 		"oA": 2,
@@ -1198,12 +1192,6 @@
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
-		},
-	"\/kit\/article-1.kit": {
-		"ft": 2048,
-		"oA": 0,
-		"oAP": "\/article-1.html",
-		"oF": 0
 		},
 	"\/kit\/article-2.kit": {
 		"ft": 2048,

@@ -39,12 +39,6 @@
 		"oAP": "\/article-5.html",
 		"oF": 0
 		},
-	"\/article-6.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/article-6.html",
-		"oF": 0
-		},
 	"\/build\/app.min.js": {
 		"ft": 64,
 		"mi": 1,
@@ -1215,12 +1209,6 @@
 		"ft": 2048,
 		"oA": 0,
 		"oAP": "\/article-5.html",
-		"oF": 0
-		},
-	"\/kit\/article-6.kit": {
-		"ft": 2048,
-		"oA": 0,
-		"oAP": "\/article-6.html",
 		"oF": 0
 		},
 	"\/kit\/connect-partners.kit": {

@@ -18,7 +18,7 @@ var app = {
         app.sliceSlideBackground();
         app.objectFitPolyfill();
         app.checkIfOldIE();
-        app.submenuToggle();
+        // app.submenuToggle();
     },
     submenuToggle: function() {
         function checkIfOpen(elm, notOpen, open) {

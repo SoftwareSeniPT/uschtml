@@ -172,6 +172,15 @@ select {
     padding-right: 15px;
     margin: 0 auto;
 }
+
+#navbar .menu>li#back-button {
+  display: none ;
+}
+
+body:not(.home) #navbar .menu>li#back-button {
+    float: left;
+    display: block;
+}
 .container-fluid {
     padding-left: 15px;
     padding-right: 15px;

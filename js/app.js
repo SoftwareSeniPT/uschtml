@@ -12,7 +12,7 @@ var app = {
         app.animateHeroText();
         app.detectMobile();
         app.detectIsHeroImageLoaded();
-        app.connectEventViewMore();
+        // app.connectEventViewMore();
         app.connectTeamPopup();
         app.wrapConnectTeam();
         app.sliceSlideBackground();

@@ -4,6 +4,9 @@
     }
 }
 @media (max-width: 769px) {
+    .homepage .us-asean-logo img {
+        max-width: 75px;
+    }
     #navbar .menu > li:first-child:hover .sub-menu {
         opacity: 0;
         visibility: hidden;
@@ -176,13 +179,13 @@
         margin-bottom: 10px;
     }
     .homepage .us-asean-logo img {
-        max-width: 60px;
+        max-width: 35px;
     }
 
     .homepage .us-asean-tagline {
         bottom: 100px;
     }
-    
+
     #navbar .menu > li {
         margin: 0 5px;
     }

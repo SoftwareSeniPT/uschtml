@@ -817,9 +817,6 @@ body:not(.home) #navbar .menu > li#back-button {
   #footer p {
     margin: 0; }
 
-.footer-section {
-  margin-bottom: 20px; }
-
 #footer input[type=email], #footer input[type=text] {
   background: #005284;
   font-family: 'Oswald', sans-serif;
@@ -871,6 +868,14 @@ body:not(.home) #navbar .menu > li#back-button {
 
 .contact-form {
   padding: 50px 0; }
+
+.contact-form .container > .row {
+  display: flex;
+  justify-content: center; }
+  .contact-form .container > .row .col-md-6 {
+    display: flex; }
+  .contact-form .container > .row .footer-section:last-child {
+    margin-left: 50px; }
 
 .copyright img {
   max-height: 22px;
